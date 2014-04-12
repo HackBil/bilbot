@@ -8,7 +8,15 @@ describe Bilbot do
     tarte_au_sucre = 'tarte_au_sucre'
     list.push(tobware)
     list.push(tarte_au_sucre)
+    list.each do |id|
+      user.unfollow(id)
+    end
     rantanplan = Bilbot::Rantanplan.new(user, list)
+
+    list.length.should == 2
+    user.followings.include?(tobware).should == false
+    user.followings.include?(tarte_au_sucre).should == false
+   
     rantanplan.action
     list.length.should == 1
     user.followings.include?(tobware).should == false
