@@ -1,6 +1,8 @@
 require 'bilbot'
 require 'active_support'
 require 'active_support/core_ext/string'
+require 'active_support/core_ext/hash'
+
 # Requires all files within the support folder
 Dir[File.join(File.dirname(__FILE__), "support/**/*.rb")].each { |f| require f }
 
