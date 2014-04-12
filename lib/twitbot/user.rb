@@ -7,16 +7,21 @@ module Twitbot
       super(@user)
     end
 
-    def follow(id = nil)
+    def follow(id)
       Twitbot.rest_client.follow(id)
     end
 
+    def unfollow(id)
+      Twitbot.rest_client.unfollow(id)
+    end
+
     def followers(id = nil)
-      Twitbot.rest_client.followers(id)
+      Twitbot.rest_client.followers(id || @user.id)
     end
 
     def followings(id = nil)
-      Twitbot.rest_client.friends(id)
+      Twitbot.rest_client.friends(id || @user.id)
     end
+    
   end
 end
