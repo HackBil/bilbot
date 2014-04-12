@@ -23,11 +23,11 @@ module Twitbot
       Twitbot.rest_client.friends(id || @user.id)
     end
     
-    def getLastFollower()
+    def get_last_follower
         Twitbot.redis.get(@user.id)
     end
 
-    def setLastFollower(id = nil)
+    def set_last_follower(id = nil)
         Twitbot.redis.set(@user.id,id)
     end
 
