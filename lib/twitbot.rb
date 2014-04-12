@@ -1,5 +1,6 @@
 require 'twitter'
 require 'twitbot/user'
+require 'redis'
 
 module Twitbot
   class << self
@@ -16,6 +17,10 @@ module Twitbot
 
     def streaming_client
       @streaming_client ||= Twitter::Streaming::Client.new(&CONFIGS)
+    end
+
+    def redis
+      @redis ||= Redis.new(url: ENV["REDIS_URL"])
     end
   end
 end

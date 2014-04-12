@@ -26,4 +26,10 @@ describe Twitbot do
       Twitbot.streaming_client.should == Twitbot.streaming_client
     end
   end
+
+  describe '#redis' do
+    it 'should memoize the client' do
+      Twitbot.redis.should == Twitbot.redis
+    end
+  end
 end
