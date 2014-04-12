@@ -12,7 +12,7 @@ describe Twitbot do
       Twitbot.rest_client.consumer_secret.should == 'bar'
     end
 
-    it 'should memorize the client' do
+    it 'should memoize the client' do
       Twitbot.rest_client.should == Twitbot.rest_client
     end
   end
