@@ -1,6 +1,6 @@
 require 'sinatra'
 
-module Twitbot
+module Bilbot
   class App < Sinatra::Base
     get '/' do
       'foo'

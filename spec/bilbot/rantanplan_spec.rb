@@ -1,14 +1,14 @@
 require 'spec_helper'
 
-describe Twitbot do
+describe Bilbot do
   it "should take the first item in the list and follow it", :vcr do
-    user = Twitbot::User.new
+    user = Bilbot::User.new
     list = Array.new
     tobware = 'tobware'
     tarte_au_sucre = 'tarte_au_sucre'
     list.push(tobware)
     list.push(tarte_au_sucre)
-    rantanplan = Twitbot::Rantanplan.new(user, list)
+    rantanplan = Bilbot::Rantanplan.new(user, list)
     rantanplan.action
     list.length.should == 1
     user.followings.include?(tobware).should == false

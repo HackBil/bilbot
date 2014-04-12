@@ -1,4 +1,4 @@
-module Twitbot
+module Bilbot
   class Rantanplan
     def initialize(u, l)
       @user = u

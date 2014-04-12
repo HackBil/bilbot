@@ -1,4 +1,4 @@
 $:.unshift(File.dirname(__FILE__) + '/lib')
-require 'twitbot'
+require 'bilbot'
 
-run Twitbot::App
+run Bilbot::App
