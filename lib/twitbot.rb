@@ -3,6 +3,7 @@ require 'twitbot/user'
 require 'twitbot/queue'
 require 'twitbot/app'
 require 'redis'
+require 'twitbot/rantanplan'
 
 module Twitbot
   class << self
