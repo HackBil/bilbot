@@ -22,7 +22,7 @@ describe Bilbot do
     end
 
 
-    it 'should memorize the client' do
+    it 'should memoize the client' do
       Bilbot.rest_client.should == Bilbot.rest_client
     end
   end
@@ -32,13 +32,13 @@ describe Bilbot do
       Bilbot.streaming_client.class.should == Twitter::Streaming::Client
     end
 
-    it 'should memorize the client' do
+    it 'should memoize the client' do
       Bilbot.streaming_client.should == Bilbot.streaming_client
     end
   end
 
   describe '#redis' do
-    it 'should memorize the client', :vcr do
+    it 'should memoize the client', :vcr do
       Bilbot.redis.should == Bilbot.redis
     end
   end
