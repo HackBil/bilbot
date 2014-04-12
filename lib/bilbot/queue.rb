@@ -1,10 +1,13 @@
 module Bilbot
   class Queue < SimpleDelegator
     attr_accessor :queue
+    attr_accessor :coll
   
 
     def initialize(twitbot_user)
         @queue =  'queue-' + twitbot_user.id
+        @coll = db.collection("queue")
+        
         super(Bilbot.mongo)
     end
 
