@@ -8,6 +8,7 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
     addressable (2.3.6)
+    bson (1.10.0)
     buftok (0.2.0)
     crack (0.4.2)
       safe_yaml (~> 1.0.0)
@@ -25,6 +26,8 @@ GEM
     memoizable (0.4.2)
       thread_safe (~> 0.3, >= 0.3.1)
     minitest (4.7.5)
+    mongo (1.10.0)
+      bson (~> 1.10.0)
     multi_json (1.9.2)
     multipart-post (2.0.0)
     naught (1.0.0)
@@ -75,6 +78,7 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport
+  mongo
   rake
   redis
   rspec
