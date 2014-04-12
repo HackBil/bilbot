@@ -1,14 +1,6 @@
 require 'spec_helper'
 
 describe Twitbot do
-  before :each do
-    stub_const('ENV', {
-      'CONSUMER_KEY'    => 'foo',
-      'CONSUMER_SECRET' => 'bar',
-      'ACCESS_TOKEN'    => 'fiz',
-      'ACCESS_SECRET'   => 'fuz'
-    })
-  end
 
   describe '#rest_client' do
     it 'should render a client object' do
