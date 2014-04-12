@@ -1,0 +1,99 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/account/verify_credentials.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - Twitter Ruby Gem 5.8.0
+      Authorization:
+      - OAuth oauth_consumer_key="hyKRjUOAdk0OFL61eauEtg", oauth_nonce="0e9c6d2a3441bc8389c398fed22c7a86",
+        oauth_signature="wSsC0wDkVkE6E%2FlyvuROtjkeBmY%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1397339737", oauth_token="391335300-CeumvTOoLT5zPq80XYMMK81xVEWje2mmBR9gYYyJ",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '1155'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Sat, 12 Apr 2014 21:55:42 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Sat, 12 Apr 2014 21:55:42 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tfe
+      Set-Cookie:
+      - guest_id=v1%3A139733974227118248; Domain=.twitter.com; Path=/; Expires=Mon,
+        11-Apr-2016 21:55:42 UTC
+      - lang=en-gb
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '15'
+      X-Rate-Limit-Remaining:
+      - '14'
+      X-Rate-Limit-Reset:
+      - '1397340642'
+      X-Transaction:
+      - 42c57755be7ed29a
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAALxW227jNhD9FUGvdW1dbcnAAk2aLBD0kod96yoQKGlkc0OR
+        KknFyQb+9w51i2Q7wRYoaj9ImjkzHM6cGfLVpoW99WPX90PfcRb4mSot7a09
+        yuyFzUkFKLpi8EyV9Yfgmuw4oELlEoCnM/1EzURONBUcdb+/CL6wPkvCc6Mp
+        AE1p3SuXKGkkw7e91rXaJqtkpZe5SFbZffzbt+f4Tq8RAlxTTUHZ29cO3j7w
+        8+vrD5k/14QXUKSn2KYuWQMYGNqY2KiqGXnpYSdKyguamxC+OgvPfzg+HE82
+        M8b0cERVLYWGXAMmuSRMwcIuBWPiAFKluWi4trcbH4WSAi9Gkb/B3FGFZoPE
+        XdiYamIkBD/tL0Rb97m23NByva0bbb2N9ZODP8tzXBfjLMmTaCTVMDp1XR/r
+        2+g8FWWpwKzsmYprWkH6XXBTwWvZKAUY/sLegUiBk4yZ2LVsMPQnkLSkk70o
+        TXSjJkuYFRjhO3QF/OddZg8Yk5fZBpAl1lUtLWdjuc7WDbZ+8LaBwCQalwlC
+        H6MO4yDcxI7rr31vQtBzJVppeDbef7nGkuxBAmNgJY3j5BtiFfAkCdWWBgvr
+        SyUsLcOBCV3CpvkrvP7TK00GFeYvN0kx9n5OrL2E8lNijzaHw2FJ6poZZlSJ
+        beFqqOaiq3DS2QG9/9I5SFakk5gwZcNzMqUF5amEmr2kWqRdylKTAd4w9o6y
+        S8M5AAsiW1vPX4f4j5zgIqBP4xvKPllo1tuThHbkGJbOhZAF5bgZNYgwuyZx
+        g55rSbNGCzkCJOgDgB5o43R0NWydiKbdvidqj0OlbSuszEuVCdZ/DN2Gb2Zf
+        lTETvBsKH23hXGhpYlWmRBBJ6Bk4y+E7KXsbCK6HA2FhV1BQ0gYwI3GAHI2d
+        2L1I4lE5c+mHi3AzeJzMrZZ/daaW+kCrXcu/VYtJVteP/I4Uxd3t1RUB925Z
+        YzdOHKTt2JuNv3/j5ySEC20zn541zY1vrUF23mfYCxO5czu1mJ8qyaprgGR1
+        3v+4lb3QGJDxrV9qU99WYrqZfu+opPdNlZmXA86rEHm2758SDAZNcilq+9jl
+        rKl6aBhvOmgUTKAl1QapKsJYD/T9HuhcADIid9AD10G/uPE8Bx7bY2Xoibch
+        0ffNRFILpWiGDauAK2yXJxhV/RwupVl42oVvY32YPSrVeDArRlB9SYoNdWaE
+        J1tJGaQZyR93ErvWnFXM2Nu/Oje3tzf2RQytyA5O603mDGwxWGG9h2p8unia
+        73oWfuT3AsH/A/cav8+2fnEvJ900w+Ji/iaKzDHnBF68CYI4ipPVxgEvj6LY
+        jQkhhVcQNwtKP1/HZA1k7ZKUC4kMW36rYRreR1v+/6LICOc4d0/vVO8E0KFN
+        BMP1ErvVD10vir11OHHLKH8cCeU4UXAdTLSKFpARmWZ49uDi7xJvwOEHG1E3
+        CPq8nqDMpWHU+u1vosVj5Yxow42ogJI0TKc99h3xYDO7AVLTnTMJHr1/N6C0
+        6WU96rjQeOnq7tGqlx7/AQAA//8DAE3athS3CwAA
+    http_version: 
+  recorded_at: Sat, 12 Apr 2014 21:55:42 GMT
+recorded_with: VCR 2.9.0
