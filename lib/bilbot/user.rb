@@ -23,7 +23,13 @@ module Bilbot
       unless last_follower = get_last_follower
         return followers
       end
-      followers
+
+      result = []
+      followers.each do |f|
+        break if f.id == last_follower
+        result << f
+      end
+      result
     end
 
     def followings(id = nil)
