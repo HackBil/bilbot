@@ -4,6 +4,9 @@ require 'bilbot/queue'
 require 'bilbot/app'
 require 'redis'
 require 'bilbot/rantanplan'
+require 'dotenv'
+
+Dotenv.load
 
 module Bilbot
   class << self

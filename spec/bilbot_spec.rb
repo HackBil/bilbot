@@ -21,7 +21,6 @@ describe Bilbot do
       Bilbot.rest_client.class.should == Twitter::REST::Client
     end
 
-
     it 'should memoize the client' do
       Bilbot.rest_client.should == Bilbot.rest_client
     end
