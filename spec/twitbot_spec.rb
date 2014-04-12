@@ -17,12 +17,16 @@ describe Twitbot do
       Twitbot.rest_client.consumer_secret.should == 'bar'
     end
 
+<<<<<<< HEAD
     it 'should render a client object' do
       Twitbot.rest_client.class.should == Twitter::REST::Client
     end
 
 
     it 'should memorize the client' do
+=======
+    it 'should memoize the client' do
+>>>>>>> b1f1b09260470045b054fd69ae77f284fa835445
       Twitbot.rest_client.should == Twitbot.rest_client
     end
   end
