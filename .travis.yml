@@ -1,2 +1,3 @@
 notifications:
-  flowdock: fa11ca9db5422e1bb7b0c9b2778ef0db
+  flowdock:
+    secure: H/xqLJ9qDlH40UWf09861FECGgDYg1n8b2jpJ16heVK4IuLrPOtWJGzreuDq9WQy/ISXuJwc47Jp5oAVp4D54n403/nupru33VYbSXiDKC+3/qjzMH8phSBMiz0X05/lZPimRA1zfN98waQTS8hB0fCpbih5JpO/UBTu4kOcjL0=
