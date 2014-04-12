@@ -5,6 +5,7 @@ require 'bilbot/app'
 require 'redis'
 require 'bilbot/rantanplan'
 require 'dotenv'
+require 'mongo'
 
 Dotenv.load
 
@@ -32,7 +33,7 @@ module Bilbot
     end
 
     def mongo
-      @mongo || MongoClient.new(ENV["MONGO_URL"]).db('bilbot')
+      @mongo ||= Mongo::MongoClient.new(ENV["MONGO_URL"]).db('bilbot')
     end
   end
 end

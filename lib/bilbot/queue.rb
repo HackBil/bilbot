@@ -4,25 +4,26 @@ module Bilbot
     attr_accessor :coll
   
 
-    def initialize(twitbot_user)
-        @queue =  'queue-' + twitbot_user.id
-        @coll = db.collection("queue")
-        
+    def initialize(twitbot_user = nil)
+        if (twitbot_user == nil)
+            @queue = 'queue'
+        else
+            @queue ='queue-' + twitbot_user.id
+        end
+
         super(Bilbot.mongo)
     end
 
     def enqueue(var)
         # Put one message onto the queue
-        Bilbot.mongo.rpush(@queue,var)
+        coll = Bilbot.mongo.collection('queue')
+        id = coll.insert( { queue: @queue, payload:  var } )
     end
 
     def dequeue(block = false)
         # Get First message from the queue
-        if block
-            Bilbot.mongo.blpop(@queue)
-        else
-            Bilbot.mongo.lpop(@queue)
-        end
+        coll = Bilbot.mongo.collection('queue')
+        coll.find_and_modify({ query: { queue: @queue } , sort: { _id: +1 }, remove: true })
     end
 
   end
