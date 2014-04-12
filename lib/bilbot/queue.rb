@@ -23,8 +23,14 @@ module Bilbot
     def dequeue(block = false)
         # Get First message from the queue
         coll = Bilbot.mongo.collection('queue')
-        coll.find_and_modify({ query: { queue: @queue } , sort: { _id: +1 }, remove: true })
-    end
+        
+        col =  coll.find_and_modify({ query: { queue: @queue } , sort: { _id: +1 }, remove: true })
 
+        unless col.nil? || col == 0
+            return col["payload"]
+        else
+            return false
+        end
+    end
   end
 end 
