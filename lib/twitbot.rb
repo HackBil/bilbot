@@ -1,5 +1,6 @@
 require 'twitter'
 require 'twitbot/user'
+require 'twitbot/queue'
 require 'redis'
 
 module Twitbot

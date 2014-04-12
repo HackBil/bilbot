@@ -18,5 +18,6 @@ module Twitbot
     def followings(id = nil)
       Twitbot.rest_client.friends(id)
     end
+    
   end
 end
