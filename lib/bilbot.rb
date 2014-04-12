@@ -27,5 +27,8 @@ module Bilbot
     def redis
       @redis ||= Redis.new(url: ENV["REDIS_URL"])
     end
+     def mongo
+      @mongo || MongoClient.new(ENV["MONGO_IP"], ENV["MONGO_PORT"])
+    end
   end
 end
