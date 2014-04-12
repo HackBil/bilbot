@@ -1,16 +1,26 @@
 require 'spec_helper'
 
 describe Twitbot do
+  before :each do
+    stub_const('ENV', {
+      'CONSUMER_KEY'    => 'foo',
+      'CONSUMER_SECRET' => 'bar',
+      'ACCESS_TOKEN'    => 'fiz',
+      'ACCESS_SECRET'   => 'fuz'
+    })
+  end
 
   describe '#rest_client' do
+    it 'should add env values to populate consumer token' do
+      Twitbot.rest_client = nil
+      Twitbot.rest_client.consumer_key.should == 'foo'
+      Twitbot.rest_client.consumer_secret.should == 'bar'
+    end
+
     it 'should render a client object' do
       Twitbot.rest_client.class.should == Twitter::REST::Client
     end
 
-    it 'should add env values to populate consumer token' do
-      Twitbot.rest_client.consumer_key.should == 'foo'
-      Twitbot.rest_client.consumer_secret.should == 'bar'
-    end
 
     it 'should memorize the client' do
       Twitbot.rest_client.should == Twitbot.rest_client
@@ -28,7 +38,7 @@ describe Twitbot do
   end
 
   describe '#redis' do
-    it 'should memoize the client' do
+    it 'should memoize the client', :vcr do
       Twitbot.redis.should == Twitbot.redis
     end
   end

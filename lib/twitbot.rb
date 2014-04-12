@@ -6,6 +6,8 @@ require 'redis'
 
 module Twitbot
   class << self
+    attr_writer :rest_client, :streaming_client
+
     CONFIGS = Proc.new do |config|
       config.consumer_key        = ENV["CONSUMER_KEY"]
       config.consumer_secret     = ENV["CONSUMER_SECRET"]
