@@ -19,17 +19,23 @@ module Bilbot
       Bilbot.rest_client.followers(id || @user.id)
     end
 
+    def recent_followers
+      unless last_follower = get_last_follower
+        return followers
+      end
+      followers
+    end
+
     def followings(id = nil)
       Bilbot.rest_client.friends(id || @user.id)
     end
-    
+
     def get_last_follower
-        Bilbot.redis.get(@user.id)
+      Bilbot.redis.get(@user.id)
     end
 
     def set_last_follower(id = nil)
-        Bilbot.redis.set(@user.id,id)
+      Bilbot.redis.set(@user.id,id)
     end
-
   end
 end
