@@ -1,5 +1,8 @@
 require 'twitbot'
 
+# Requires all files within the support folder
+Dir[File.join(File.dirname(__FILE__), "support/**/*.rb")].each { |f| require f }
+
 class NullObject
   def method_missing(*args, &block)
     nil
