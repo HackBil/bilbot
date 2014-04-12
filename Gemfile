@@ -9,5 +9,5 @@ gem 'webmock'
 gem 'sinatra'
 gem 'thin'
 gem 'activesupport'
-gem 'mongo'
+gem "mongoid", "~> 2.0"
 gem 'dotenv'
