@@ -22,8 +22,8 @@ describe Bilbot::User do
       expect(user.recent_followers.count).to eq(1)
     end
 
-    it "should set last follower" do
-      Bilbot::User.new.set_last_follower('test')
+    it "should set last follower", :vcr do
+      user.set_last_follower('test')
       mongodb.find( { "follower_id" => 'test', 'user' => user.id}  ).count.should == 1
     end
   end
