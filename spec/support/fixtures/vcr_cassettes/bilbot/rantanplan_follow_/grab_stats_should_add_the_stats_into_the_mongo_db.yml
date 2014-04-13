@@ -12,15 +12,9 @@ http_interactions:
       User-Agent:
       - Twitter Ruby Gem 5.8.0
       Authorization:
-<<<<<<< HEAD
-      - OAuth oauth_consumer_key="9yAAZYhzlTiAQkSYpkltHnjT1", oauth_nonce="5693e504772050ab53311f41a8ae439b",
-        oauth_signature="%2B122LvTrp3DEqeP4zuNmF7Jf1Z0%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1397419702", oauth_token="89173622-GT2mMwLQ5wXgyIX8Egfhkwfqgl6d5uX60GIONcv43",
-=======
-      - OAuth oauth_consumer_key="wuFO2RHfdbxUjiWz2BFzhBmvj", oauth_nonce="7bcda06a5d9dc5c57f647e597db060c2",
-        oauth_signature="8M4SOrIZoE7NGyTNypVTIijOJ90%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1397417652", oauth_token="391335300-jhLaHW5RGvSXktklsZwpYTDeD1ILFN8erqnZ0tHw",
->>>>>>> c2d386cc7562390f536c26897b7eb9540418c58c
+      - OAuth oauth_consumer_key="9yAAZYhzlTiAQkSYpkltHnjT1", oauth_nonce="05c06556c63fac26559c43a016eb1d79",
+        oauth_signature="QBCLiwV3vcRfXak%2BpwzcEfeXbWM%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1397421402", oauth_token="89173622-GT2mMwLQ5wXgyIX8Egfhkwfqgl6d5uX60GIONcv43",
         oauth_version="1.0"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
@@ -31,55 +25,30 @@ http_interactions:
     headers:
       Cache-Control:
       - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
-<<<<<<< HEAD
       Content-Length:
-      - '995'
+      - '1052'
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Sun, 13 Apr 2014 20:08:23 GMT
+      - Sun, 13 Apr 2014 20:36:42 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Sun, 13 Apr 2014 20:08:23 GMT
-=======
-      Content-Encoding:
-      - gzip
-      Content-Length:
-      - '1156'
-      Content-Type:
-      - application/json;charset=utf-8
-      Date:
-      - Sun, 13 Apr 2014 19:34:13 GMT
-      Expires:
-      - Tue, 31 Mar 1981 05:00:00 GMT
-      Last-Modified:
-      - Sun, 13 Apr 2014 19:34:13 GMT
->>>>>>> c2d386cc7562390f536c26897b7eb9540418c58c
+      - Sun, 13 Apr 2014 20:36:42 GMT
       Pragma:
       - no-cache
       Server:
       - tfe
       Set-Cookie:
-<<<<<<< HEAD
-      - guest_id=v1%3A139741970331002358; Domain=.twitter.com; Path=/; Expires=Tue,
-        12-Apr-2016 20:08:23 UTC
+      - guest_id=v1%3A139742140276968003; Domain=.twitter.com; Path=/; Expires=Tue,
+        12-Apr-2016 20:36:42 UTC
       - lang=en
-=======
-      - guest_id=v1%3A139741765371523466; Domain=.twitter.com; Path=/; Expires=Tue,
-        12-Apr-2016 19:34:13 UTC
-      - lang=en-gb
->>>>>>> c2d386cc7562390f536c26897b7eb9540418c58c
       Status:
       - 200 OK
       Strict-Transport-Security:
       - max-age=631138519
       X-Access-Level:
-<<<<<<< HEAD
       - read
-=======
-      - read-write
->>>>>>> c2d386cc7562390f536c26897b7eb9540418c58c
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -89,58 +58,20 @@ http_interactions:
       X-Rate-Limit-Remaining:
       - '12'
       X-Rate-Limit-Reset:
-<<<<<<< HEAD
-      - '1397420602'
+      - '1397422301'
       X-Transaction:
-      - a68ba4f0937d89f5
+      - bd2ec7bd421b42b8
       X-Xss-Protection:
       - 1; mode=block
     body:
       encoding: UTF-8
       string: '{"id":89173622,"id_str":"89173622","name":"Sylvain GERME","screen_name":"tarte_au_sucre","location":"Lyon","description":"Web
         dev, Wordpress, SEO. Application and Network Performance Management","url":"http:\/\/t.co\/wrPideVbKI","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/wrPideVbKI","expanded_url":"http:\/\/www.sylvain-germe.fr","display_url":"sylvain-germe.fr","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":209,"friends_count":849,"listed_count":7,"created_at":"Wed
-        Nov 11 12:29:10 +0000 2009","favourites_count":0,"utc_offset":-7200,"time_zone":"Greenland","geo_enabled":false,"verified":false,"statuses_count":511,"lang":"en","status":{"created_at":"Sun
-        Apr 13 19:45:28 +0000 2014","id":455431593331810304,"id_str":"455431593331810304","text":"Hackathon
-        BoostInLyon : On commence \u00e0 9, on termine \u00e0 4 ! merci !","source":"\u003ca
-        href=\"http:\/\/ifttt.com\" rel=\"nofollow\"\u003eIFTTT\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[]},"favorited":false,"retweeted":false,"lang":"fr"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"BEF7C0","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/257289020\/IMG_2266_resize.jpg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/257289020\/IMG_2266_resize.jpg","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1756944008\/36660_406694874002_726239002_4473216_1607486_n_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1756944008\/36660_406694874002_726239002_4473216_1607486_n_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/89173622\/1397254045","profile_link_color":"0A8F0C","profile_sidebar_border_color":"636363","profile_sidebar_fill_color":"000000","profile_text_color":"2CDB1C","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
+        Nov 11 12:29:10 +0000 2009","favourites_count":0,"utc_offset":-7200,"time_zone":"Greenland","geo_enabled":false,"verified":false,"statuses_count":512,"lang":"en","status":{"created_at":"Sun
+        Apr 13 20:12:55 +0000 2014","id":455438502319374339,"id_str":"455438502319374339","text":"@nourybouraqadi  j''ai
+        eu beau r\u00e2ler \u00e0 faire du TDD aux mines, je suis en hackathon et
+        je passe mon temps \u00e0 \u00e7a en #ruby, merci !","source":"web","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":155005439,"in_reply_to_user_id_str":"155005439","in_reply_to_screen_name":"nourybouraqadi","geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[{"text":"ruby","indices":[113,118]}],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"nourybouraqadi","name":"Noury
+        Bouraqadi","id":155005439,"id_str":"155005439","indices":[0,15]}]},"favorited":false,"retweeted":false,"lang":"fr"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"BEF7C0","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/257289020\/IMG_2266_resize.jpg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/257289020\/IMG_2266_resize.jpg","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1756944008\/36660_406694874002_726239002_4473216_1607486_n_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1756944008\/36660_406694874002_726239002_4473216_1607486_n_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/89173622\/1397254045","profile_link_color":"0A8F0C","profile_sidebar_border_color":"636363","profile_sidebar_fill_color":"000000","profile_text_color":"2CDB1C","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
     http_version: 
-  recorded_at: Sun, 13 Apr 2014 20:08:23 GMT
-=======
-      - '1397418552'
-      X-Transaction:
-      - 19a031668317b6eb
-      X-Xss-Protection:
-      - 1; mode=block
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        H4sIAAAAAAAAALxW227jNhD9FUGvdW1dbcnAAk2aLBD0kod96yoQKGlkc0OR
-        KknFyQb+9w51i2Q7wRYoaj9ImjkznBmeGfLVpoW99WPX90PfcRb4mSot7a09
-        yuyFzUkFKLpi8EyV9Yfgmuw4oELlEoCnM/1EzURONBUcdb+/CL6wPkvCc6Mp
-        AE1p3SuXKGkkw7e91rXaJqtkpZe5SFbZffzbt+f4Tq8RAlxTTUHZ29cO3j7w
-        8+vrD5k/14QXUKSn2KYuWQMYGNqY2KiqGXnpYSdKyguamxC+OgvPfzg+HE+S
-        GWN6OKKqlkJDrgGLXBKmYGGXgjFxAKnSXDRc29uNj0JJgRejyF9j7ahCs0Hi
-        LmwsNTESgp/2F6Kt+1xbbmi53taNtt7G+snBn+U5rotxluRJNJJqGJ26ru9h
-        mXWeirJUYFb2zI5rWkH6XXCzg9eyUQow/IW9A5ECJxkzsWvZYOhPIGlJJ7ko
-        TXSjJkv46I8RvkNXwH/eZfaAMXWZJYAssa5qaTkby3W2brD1g7cEAlNoXCYI
-        fYw6jINwEzuuvzYJjAQ9V6KVhmfj/Zdr3JI9SGAMrKRxnHxDrAKeJKHa0mDh
-        /lIJS8twYEKXsGn+Cq//9EpTQYX1y01RjL2fE2svofyU2KPN4XBYkrpmhhlV
-        Ylu4Gqq56HY46eyA3n/pHCQr0klMmLLhOZnSgvJUQs1eUi3SrmSpqQBvGHtH
-        2ZXhHIAbIltbz1+H+I+c4CKgL+Mbyj5ZaNbbk4J25BiWzoWQBeWYjBpEWF1T
-        uEHPtaRZo4UcARL0AUAPtHE6uhq2TkTTbt8Ttceh0rYV7sxLlQnWfwzdhm8m
-        r8qYCd4NhY9SOBdamliV2SKIJPQMnNXwnZK9DQTXw4GwsCsoKGkDmJE4QI7G
-        TuxeJPGonLn0w0W4GTxO5lbLvzpTS32g1a7l36rFJKvrR35HiuLu9uqKgHu3
-        rLEbJw7SduzNxt+/8XMSwoW2mU/PmubGt9YgO+8z7IWJ3LmdWsxPlWTVNUCy
-        Ou9/TGUvNAZkfOuX2uxvKzHdTL93VNL7psrMywHnVYg82/dPCQaDJrkUtX3s
-        atZUPTSMNx00CibQkmqDVBVhrAf6fg90LgAZkTvogeugX9x4ngOP7bEy9MTb
-        kOj7ZiKphVI0w4ZVwBW2yxOMqn4Ol9IsPO3Ct7E+zB6VajyYFSOoviTFhjoz
-        wpOtpAzSjOSPO4lda84qZuztX52b29sb+yKGVmQHp/tN5gxsMbjDeg/V+HTx
-        NN/1LPzI7wWC/wfuNX6fpX4xl5NummFxMX8TReaYcwIv3gRBHMXJauOAl0dR
-        7MaEkMIriJsFpZ+vY7IGsnZJyoVEhi2/1TAN76OU/78oMsI5zt3TO9U7AXRo
-        E8FwvcRu9UPXi2JvHU7cMsofR0I5ThRcBxOtogVkRKYZnj24+LvEG3D4wUbU
-        DYI+rycoc2kYtX77m2jxWDkj2nAjKqAkDdNpj31HPNjMboDUdOdMgkfv3w0o
-        bXpZjzouNF66unu06qXHfwAAAP//AwCLiLjUtwsAAA==
-    http_version: 
-  recorded_at: Sun, 13 Apr 2014 19:34:12 GMT
->>>>>>> c2d386cc7562390f536c26897b7eb9540418c58c
+  recorded_at: Sun, 13 Apr 2014 20:36:42 GMT
 recorded_with: VCR 2.9.0
