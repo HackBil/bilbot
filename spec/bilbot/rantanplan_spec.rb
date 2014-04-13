@@ -31,7 +31,7 @@ describe Bilbot do
       end
 
       it 'should add the stats into the mongo db', :vcr do
-        user.stub(:screen_name) { 'foo' }
+        user.stub(:id) { 'foo' }
         user.stub(:followers_count) { 1 }
         user.stub(:friends_count) { 2 }
         rantanplan.grab_stats

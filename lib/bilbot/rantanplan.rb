@@ -7,7 +7,7 @@ module Bilbot
 
     def grab_stats
       @coll.insert({
-        user: @user.screen_name,
+        user: @user.id,
         followerCount: @user.followers_count,
         followingCount: @user.friends_count,
       })
