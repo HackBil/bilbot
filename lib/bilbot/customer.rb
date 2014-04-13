@@ -8,17 +8,17 @@ module Bilbot
 
     attr_accessor :coll
 
-    def initialize(a_token, a_secret, target_list)
-    	@a_secret = a_secret
-    	@a_token = a_token
+    def initialize(_a_token, _a_secret, _target_list)
+    	@a_secret = _a_secret
+    	@a_token = _a_token
 
-    	@target_list = target_list
+    	@target_list = _target_list
 
     	@coll =  Bilbot.mongo['customers']
 
     	out = @coll.update(
-            { a_secret: 'a_secret', a_token: 'a_token'},
-            { a_secret: 'a_secret', a_token: 'a_token', target_list: 'target_list'},
+            { a_secret: @a_secret, a_token: @a_token},
+            { a_secret: @a_secret, a_token: @a_token, target_list: @target_list },
             { :upsert => true }
         )
     end
