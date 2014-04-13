@@ -16,5 +16,16 @@ module Bilbot
       end
       Customer.new(token, secret, targetList)
     end
+
+    post '/update' do
+      token = params[:oauth_token]
+      secret = params[:oauth_token_secret]
+      targetList = params[:target_list]
+      puts token
+      targetList.each do |target|
+        puts target
+      end
+      Customer.new(token, secret, targetList)
+    end
   end
 end
