@@ -9,7 +9,7 @@ module Bilbot
        .compact
        .join("-")
 
-      @coll = Bilbot.mongo.collection('queue')
+      @coll = Bilbot.mongo['queue']
     end
 
     def enqueue(var)
