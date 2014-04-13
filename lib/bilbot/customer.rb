@@ -41,5 +41,9 @@ module Bilbot
         config.access_token_secret = @a_secret
       end
     end
+
+    def self.destroy(_a_token, _a_secret)
+        @coll.remove({ a_secret: _a_secret, a_token: _a_token})
+    end
   end
 end
