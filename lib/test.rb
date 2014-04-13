@@ -2,7 +2,6 @@
 
 require 'bilbot'
 
-u = Bilbot::Queue.new
+u = Bilbot::User.new
 
-u.enqueue('test')
-u.dequeue()
+u.set_last_follower('kill')

@@ -37,11 +37,24 @@ module Bilbot
     end
 
     def get_last_follower
-      Bilbot.redis.get(@user.id)
+      coll = Bilbot.mongo.collection('users')
+      out = coll.find( { 'user' => @user.id } ).first
+      unless out.nil? || out == 0
+        return out["follower_id"]
+      else
+        return false
+      end
     end
 
     def set_last_follower(id = nil)
-      Bilbot.redis.set(@user.id,id)
+      coll = Bilbot.mongo.collection('users')
+      out = coll.update(
+            { 'user' => @user.id },
+            { "follower_id" => id, 'user' => @user.id  },
+            { :upsert => true }
+          )
+      return out
     end
+
   end
 end
