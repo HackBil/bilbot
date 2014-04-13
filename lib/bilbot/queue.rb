@@ -1,40 +1,30 @@
 module Bilbot
-  class Queue < SimpleDelegator
-    attr_accessor :queue
-    attr_accessor :coll
-  
+  class Queue
+    attr_accessor :queue, :coll
 
-    def initialize(twitbot_user = nil)
-        if (twitbot_user == nil)
-            @queue = 'queue'
-        else
-            @queue ='queue-' + twitbot_user.id
-        end
-        @coll = Bilbot.mongo.collection('queue')
+    def initialize(customer = nil)
+      @queue = [
+        'queue', customer ? customer.id : nil
+      ]
+       .compact
+       .join("-")
 
-        super(Bilbot.mongo)
+      @coll = Bilbot.mongo.collection('queue')
     end
 
     def enqueue(var)
-        # Put one message onto the queue
-        
-        id = @coll.insert( { queue: @queue, payload:  var } )
+      # Put one message onto the queue
+      @coll.insert(queue: @queue, payload: var)
     end
 
     def dequeue
-        # Get First message from the queue
-        col =  @coll.find_and_modify({ query: { queue: @queue } , sort: { _id: +1 }, remove: true })
-
-        unless col.nil? || col == 0
-            return col["payload"]
-        else
-            return false
-        end
+      # Get First message from the queue
+      col =  @coll.find_and_modify({ query: { queue: @queue } , sort: { _id: 1 }, remove: true })
+      !(col.nil? || col == 0) ? col['payload'] : false
     end
 
     def clean
-        @coll.remove({ queue: @queue }) 
+      @coll.remove(queue: @queue)
     end
-
   end
-end 
+end
