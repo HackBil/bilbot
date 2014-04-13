@@ -3,7 +3,7 @@
 $:.unshift(File.dirname(__FILE__) + '/../lib')
 require 'bilbot'
 
-rantanplan = Bilbot::Rantanplan.new(Bilbot::User.new, Bilbot::Queue.new)
+rantanplan = Bilbot::Rantanplan.new
 
 while true
   rantanplan.perform
