@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Bilbot do
+describe Bilbot::Rantanplan do
   let(:user) { Bilbot::User.new }
   let(:rantanplan) { Bilbot::Rantanplan.new(user, queue) }
 
