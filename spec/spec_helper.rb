@@ -2,6 +2,9 @@ require 'bilbot'
 require 'active_support'
 require 'active_support/core_ext/string'
 require 'active_support/core_ext/hash'
+require 'coveralls'
+
+Coveralls.wear!
 
 ENV['RACK_ENV'] = 'test'
 
