@@ -12,9 +12,9 @@ http_interactions:
       User-Agent:
       - Twitter Ruby Gem 5.8.0
       Authorization:
-      - OAuth oauth_consumer_key="wuFO2RHfdbxUjiWz2BFzhBmvj", oauth_nonce="27703d141b2d39f2835c8a776ef3ef3f",
-        oauth_signature="bOeM2QmGgz6VF%2Fd1QvvszCp0kmk%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1397417650", oauth_token="391335300-jhLaHW5RGvSXktklsZwpYTDeD1ILFN8erqnZ0tHw",
+      - OAuth oauth_consumer_key="wuFO2RHfdbxUjiWz2BFzhBmvj", oauth_nonce="cc4994fb15b2c1b8e1461a66f577edee",
+        oauth_signature="eY5%2FDETLFl7UOWNYrI10I8nCajQ%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1397421938", oauth_token="391335300-jhLaHW5RGvSXktklsZwpYTDeD1ILFN8erqnZ0tHw",
         oauth_version="1.0"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
@@ -32,18 +32,18 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Sun, 13 Apr 2014 19:34:12 GMT
+      - Sun, 13 Apr 2014 20:45:48 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Sun, 13 Apr 2014 19:34:12 GMT
+      - Sun, 13 Apr 2014 20:45:48 GMT
       Pragma:
       - no-cache
       Server:
       - tfe
       Set-Cookie:
-      - guest_id=v1%3A139741765240423331; Domain=.twitter.com; Path=/; Expires=Tue,
-        12-Apr-2016 19:34:12 UTC
+      - guest_id=v1%3A139742194831521023; Domain=.twitter.com; Path=/; Expires=Tue,
+        12-Apr-2016 20:45:48 UTC
       - lang=en-gb
       Status:
       - 200 OK
@@ -60,9 +60,9 @@ http_interactions:
       X-Rate-Limit-Remaining:
       - '14'
       X-Rate-Limit-Reset:
-      - '1397418552'
+      - '1397422848'
       X-Transaction:
-      - dfdca42226f84cba
+      - 3a063a17098bb864
       X-Xss-Protection:
       - 1; mode=block
     body:
@@ -95,5 +95,5 @@ http_interactions:
         DYI+rycoc2kYtX77m2jxWDkj2nAjKqAkDdNpj31HPNjMboDUdOdMgkfv3w0o
         bXpZjzouNF66unu06qXHfwAAAP//AwCLiLjUtwsAAA==
     http_version: 
-  recorded_at: Sun, 13 Apr 2014 19:34:11 GMT
+  recorded_at: Sun, 13 Apr 2014 20:45:47 GMT
 recorded_with: VCR 2.9.0
