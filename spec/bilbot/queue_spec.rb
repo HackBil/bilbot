@@ -4,7 +4,7 @@ describe Bilbot::Queue do
   let(:queue) { Bilbot::Queue.new }
   let(:mongodb) { Bilbot.mongo.collection('queue') }
 
-  before :each do 
+  before :each do
   	queue.clean
   end
 
@@ -16,12 +16,14 @@ describe Bilbot::Queue do
 
   it "should enqueue an Object to Queue" do
   	queue.enqueue 'test'
-  	mongodb.find( { queue: 'queue'} ).count.should == 1  	
+  	mongodb.find( { queue: 'queue'} ).count.should == 1
   end
 
   it "should dequeue an Object from Queue" do
   	queue.enqueue 'test'
   	queue.dequeue.should == 'test'
+:a
+
   end
 
   it "should return false when dequeue last Object" do
@@ -29,5 +31,5 @@ describe Bilbot::Queue do
   	queue.dequeue
   	queue.dequeue.should be_false
   end
-  
+
 end
