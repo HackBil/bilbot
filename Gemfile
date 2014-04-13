@@ -8,6 +8,7 @@ gem 'vcr'
 gem 'webmock'
 gem 'sinatra'
 gem 'thin'
+gem 'shotgun'
 gem 'activesupport'
 gem "mongoid", "~> 2.0"
 gem 'dotenv'
