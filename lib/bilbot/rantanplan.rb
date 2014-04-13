@@ -1,24 +1,27 @@
 module Bilbot
   class Rantanplan
-    def initialize(u, l)
-      @user = u
-      @list = l
-      db = Bilbot::mongo
-      @coll =db['bbStat'];
+    def initialize(user, queue)
+      @user, @queue = user, queue
+      @coll = Bilbot.mongo['bbStat']
     end
 
-    def action
-      if @list.length > 0
-        u = @list.pop
-        @user.follow(u)
-      end
-      obj = {
-        "user" => @user.screen_name,
-        "followerCount" => @user.followers_count,
-        "followingCount" => @user.friends_count,
-      }
-      @coll.insert(obj)
-     end
+    def grab_stats
+      @coll.insert({
+        user: @user.screen_name,
+        followerCount: @user.followers_count,
+        followingCount: @user.friends_count,
+      })
+    end
 
+    def follow!
+      if target = @queue.dequeue
+        @user.follow(target)
+      end
+    end
+
+    def perform
+      grab_stats
+      follow!
+    end
   end
 end
