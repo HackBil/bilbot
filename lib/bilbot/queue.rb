@@ -10,21 +10,20 @@ module Bilbot
         else
             @queue ='queue-' + twitbot_user.id
         end
+        @coll = Bilbot.mongo.collection('queue')
 
         super(Bilbot.mongo)
     end
 
     def enqueue(var)
         # Put one message onto the queue
-        coll = Bilbot.mongo.collection('queue')
-        id = coll.insert( { queue: @queue, payload:  var } )
+        
+        id = @coll.insert( { queue: @queue, payload:  var } )
     end
 
-    def dequeue(block = false)
+    def dequeue
         # Get First message from the queue
-        coll = Bilbot.mongo.collection('queue')
-        
-        col =  coll.find_and_modify({ query: { queue: @queue } , sort: { _id: +1 }, remove: true })
+        col =  @coll.find_and_modify({ query: { queue: @queue } , sort: { _id: +1 }, remove: true })
 
         unless col.nil? || col == 0
             return col["payload"]
@@ -32,5 +31,10 @@ module Bilbot
             return false
         end
     end
+
+    def clean
+        @coll.remove({ queue: @queue }) 
+    end
+
   end
 end 

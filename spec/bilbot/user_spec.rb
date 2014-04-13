@@ -2,6 +2,7 @@ require 'spec_helper'
 
 describe Bilbot::User do
   let(:object) { NullObject.new }
+  let(:mongodb) { Bilbot.mongo.collection('users') }
 
   it "should forward methods to the delegated user" do
     Bilbot.rest_client.stub(:user) { object }
@@ -20,5 +21,12 @@ describe Bilbot::User do
       user.stub(:get_last_follower) { 361204760 }
       expect(user.recent_followers.count).to eq(1)
     end
+
+    it "should set last follower" do
+      Bilbot::User.new.set_last_follower('test')
+      mongodb.find( { "follower_id" => 'test', 'user' => user.id}  ).count.should == 1
+    end
   end
+
+
 end
