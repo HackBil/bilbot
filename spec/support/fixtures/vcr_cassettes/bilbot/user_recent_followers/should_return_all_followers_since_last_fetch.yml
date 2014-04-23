@@ -12,9 +12,9 @@ http_interactions:
       User-Agent:
       - Twitter Ruby Gem 5.8.0
       Authorization:
-      - OAuth oauth_consumer_key="wuFO2RHfdbxUjiWz2BFzhBmvj", oauth_nonce="bbe801cfa9ec2fe54188eba295a4ba3d",
-        oauth_signature="a%2BBixYm%2B%2BfCiVNKVU7HV9aVC5Yo%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1398275360", oauth_token="391335300-jhLaHW5RGvSXktklsZwpYTDeD1ILFN8erqnZ0tHw",
+      - OAuth oauth_consumer_key="wuFO2RHfdbxUjiWz2BFzhBmvj", oauth_nonce="50fe09f6969c56b228c761e1a3bc0bd7",
+        oauth_signature="RZsJ9VRnKomjrHJUCOLpLcXqIWY%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1398277390", oauth_token="391335300-jhLaHW5RGvSXktklsZwpYTDeD1ILFN8erqnZ0tHw",
         oauth_version="1.0"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
@@ -30,18 +30,18 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Wed, 23 Apr 2014 17:49:21 GMT
+      - Wed, 23 Apr 2014 18:23:11 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Wed, 23 Apr 2014 17:49:21 GMT
+      - Wed, 23 Apr 2014 18:23:11 GMT
       Pragma:
       - no-cache
       Server:
       - tfe
       Set-Cookie:
-      - guest_id=v1%3A139827536114420416; Domain=.twitter.com; Path=/; Expires=Fri,
-        22-Apr-2016 17:49:21 UTC
+      - guest_id=v1%3A139827739116415630; Domain=.twitter.com; Path=/; Expires=Fri,
+        22-Apr-2016 18:23:11 UTC
       - lang=en-gb
       Status:
       - 200 OK
@@ -56,11 +56,11 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '15'
       X-Rate-Limit-Remaining:
-      - '10'
+      - '7'
       X-Rate-Limit-Reset:
-      - '1398276252'
+      - '1398278195'
       X-Transaction:
-      - e32b3c80ecb40c74
+      - 553c5efce1630a8b
       X-Xss-Protection:
       - 1; mode=block
     body:
@@ -72,7 +72,7 @@ http_interactions:
         http:\/\/t.co\/9Q3mJmji5v","source":"\u003ca href=\"http:\/\/www.apple.com\"
         rel=\"nofollow\"\u003eiOS\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[{"text":"reperkusound","indices":[0,13]}],"symbols":[],"urls":[],"user_mentions":[],"media":[{"id":457988845280432128,"id_str":"457988845280432128","indices":[14,36],"media_url":"http:\/\/pbs.twimg.com\/media\/BlsabaIIEAAm1Oa.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/BlsabaIIEAAm1Oa.jpg","url":"http:\/\/t.co\/9Q3mJmji5v","display_url":"pic.twitter.com\/9Q3mJmji5v","expanded_url":"http:\/\/twitter.com\/AlexisMontagne\/status\/457988845414649856\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":340,"h":453,"resize":"fit"},"large":{"w":720,"h":960,"resize":"fit"},"medium":{"w":600,"h":800,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"de"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000429744989\/70e2c88919aaad2da1b4f3c69a6ea61a_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000429744989\/70e2c88919aaad2da1b4f3c69a6ea61a_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/391335300\/1351289265","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
     http_version: 
-  recorded_at: Wed, 23 Apr 2014 17:49:21 GMT
+  recorded_at: Wed, 23 Apr 2014 18:23:11 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1/followers/list.json?cursor=-1&user_id=391335300
@@ -85,9 +85,9 @@ http_interactions:
       User-Agent:
       - Twitter Ruby Gem 5.8.0
       Authorization:
-      - OAuth oauth_consumer_key="wuFO2RHfdbxUjiWz2BFzhBmvj", oauth_nonce="f9e021094022389833cc91ac84970001",
-        oauth_signature="ht26UMkB%2F3UxzNhL8qd62UAYh2o%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1398275361", oauth_token="391335300-jhLaHW5RGvSXktklsZwpYTDeD1ILFN8erqnZ0tHw",
+      - OAuth oauth_consumer_key="wuFO2RHfdbxUjiWz2BFzhBmvj", oauth_nonce="0b587f61acc40860ede5915febeeae64",
+        oauth_signature="%2Bx7qWbKKT1%2BzgNhuYq27DDllpdM%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1398277391", oauth_token="391335300-jhLaHW5RGvSXktklsZwpYTDeD1ILFN8erqnZ0tHw",
         oauth_version="1.0"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
@@ -99,22 +99,22 @@ http_interactions:
       Cache-Control:
       - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
       Content-Length:
-      - '9469'
+      - '9625'
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Wed, 23 Apr 2014 17:49:22 GMT
+      - Wed, 23 Apr 2014 18:23:11 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Wed, 23 Apr 2014 17:49:22 GMT
+      - Wed, 23 Apr 2014 18:23:11 GMT
       Pragma:
       - no-cache
       Server:
       - tfe
       Set-Cookie:
-      - guest_id=v1%3A139827536207864458; Domain=.twitter.com; Path=/; Expires=Fri,
-        22-Apr-2016 17:49:22 UTC
+      - guest_id=v1%3A139827739177244958; Domain=.twitter.com; Path=/; Expires=Fri,
+        22-Apr-2016 18:23:11 UTC
       - lang=en-gb
       Status:
       - 200 OK
@@ -131,9 +131,9 @@ http_interactions:
       X-Rate-Limit-Remaining:
       - '6'
       X-Rate-Limit-Reset:
-      - '1398276254'
+      - '1398278284'
       X-Transaction:
-      - e6a9cb2d84fd06ef
+      - 734c07ae35dade4f
       X-Xss-Protection:
       - 1; mode=block
     body:
@@ -195,7 +195,7 @@ http_interactions:
         rel=\"nofollow\"\u003eTweet Button\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[{"url":"http:\/\/t.co\/mf1en5ND08","expanded_url":"http:\/\/blog.france3.fr\/numerique-midi-pyrenees\/2014\/04\/16\/le-toulousain-overblog-rachete-par-lediteur-numerique-webedia.html","display_url":"blog.france3.fr\/numerique-midi\u2026","indices":[63,85]}],"user_mentions":[]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"fr"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/352056518\/water-texture-2.jpg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/352056518\/water-texture-2.jpg","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000765617289\/3b5c6015760e94c785fca057b00428ce_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000765617289\/3b5c6015760e94c785fca057b00428ce_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/46297785\/1398240419","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},{"id":416264712,"id_str":"416264712","name":"Pag\u00e8s
         Production","screen_name":"PagesFilms","location":"Lyon - France","description":"Soci\u00e9t\u00e9
         de production - #Audiovisuel et #Digital\r\nTouche aussi au #Cinema #Publicit\u00e9
-        #Communication #SocialMedia","url":"http:\/\/t.co\/rnUYthE24c","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/rnUYthE24c","expanded_url":"http:\/\/pages-films.fr\/","display_url":"pages-films.fr","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":808,"friends_count":1913,"listed_count":13,"created_at":"Sat
+        #Communication #SocialMedia","url":"http:\/\/t.co\/rnUYthE24c","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/rnUYthE24c","expanded_url":"http:\/\/pages-films.fr\/","display_url":"pages-films.fr","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":809,"friends_count":1913,"listed_count":13,"created_at":"Sat
         Nov 19 13:04:19 +0000 2011","favourites_count":58,"utc_offset":7200,"time_zone":"Paris","geo_enabled":false,"verified":false,"statuses_count":912,"lang":"fr","status":{"created_at":"Wed
         Apr 23 14:00:05 +0000 2014","id":458968554440622081,"id_str":"458968554440622081","text":"L\u2019institut
         Lumi\u00e8re regarde vers le Sud (festival):  http:\/\/t.co\/AJYyo0kwJa","source":"\u003ca
@@ -209,16 +209,18 @@ http_interactions:
         rel=\"nofollow\"\u003eTweet Button\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[{"text":"SoundCloud","indices":[69,80]}],"symbols":[],"urls":[{"url":"https:\/\/t.co\/5wTGZ4zInE","expanded_url":"https:\/\/soundcloud.com\/thephilanthropists\/the-selfish-song-even-if-1?utm_source=soundcloud&utm_campaign=share&utm_medium=twitter","display_url":"soundcloud.com\/thephilanthrop\u2026","indices":[82,105]}],"user_mentions":[]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444205940611354624\/ZAai-gUp_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444205940611354624\/ZAai-gUp_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},{"id":901932493,"id_str":"901932493","name":"Official
         POKUS","screen_name":"PokusEP4","location":"Paris","description":"Graffitiart
         Girls Bodypainting Weed Illustrations Tattoos Hardlife","url":"http:\/\/t.co\/stzRSqs90d","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/stzRSqs90d","expanded_url":"http:\/\/custom2.fr","display_url":"custom2.fr","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":68,"friends_count":345,"listed_count":0,"created_at":"Wed
-        Oct 24 14:25:00 +0000 2012","favourites_count":16,"utc_offset":10800,"time_zone":"Athens","geo_enabled":false,"verified":false,"statuses_count":162,"lang":"fr","status":{"created_at":"Thu
-        Apr 03 20:01:10 +0000 2014","id":451811667668901888,"id_str":"451811667668901888","text":"@SeasonsArt
-        bien vu! Et merci pour le post\nPeace","source":"\u003ca href=\"https:\/\/twitter.com\/download\/android\"
-        rel=\"nofollow\"\u003eTwitter for  Android\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":451776806878990337,"in_reply_to_status_id_str":"451776806878990337","in_reply_to_user_id":432816558,"in_reply_to_user_id_str":"432816558","in_reply_to_screen_name":"SeasonsArt","geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"SeasonsArt","name":"\/SEAS","id":432816558,"id_str":"432816558","indices":[0,11]}]},"favorited":false,"retweeted":false,"lang":"fr"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/2758945020\/b00a58f89462a4d902adf2da4b5a9c4f_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/2758945020\/b00a58f89462a4d902adf2da4b5a9c4f_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/901932493\/1351090650","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},{"id":47930310,"id_str":"47930310","name":"Lasse
+        Oct 24 14:25:00 +0000 2012","favourites_count":16,"utc_offset":10800,"time_zone":"Athens","geo_enabled":false,"verified":false,"statuses_count":163,"lang":"fr","status":{"created_at":"Wed
+        Apr 23 18:03:12 +0000 2014","id":459029738716397568,"id_str":"459029738716397568","text":"Chillin
+        with my daughter &amp; my hommie 2Pa...\n#chillin #family #friends #bestmoments
+        #sun #water #jet #jetski http:\/\/t.co\/X6UdqEqDvh","source":"\u003ca href=\"https:\/\/twitter.com\/download\/android\"
+        rel=\"nofollow\"\u003eTwitter for  Android\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[{"text":"chillin","indices":[48,56]},{"text":"family","indices":[57,64]},{"text":"friends","indices":[65,73]},{"text":"bestmoments","indices":[74,86]},{"text":"sun","indices":[87,91]},{"text":"water","indices":[92,98]},{"text":"jet","indices":[99,103]},{"text":"jetski","indices":[104,111]}],"symbols":[],"urls":[],"user_mentions":[],"media":[{"id":459029738552823808,"id_str":"459029738552823808","indices":[112,134],"media_url":"http:\/\/pbs.twimg.com\/media\/Bl7NHXvIEAADDWF.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/Bl7NHXvIEAADDWF.jpg","url":"http:\/\/t.co\/X6UdqEqDvh","display_url":"pic.twitter.com\/X6UdqEqDvh","expanded_url":"http:\/\/twitter.com\/PokusEP4\/status\/459029738716397568\/photo\/1","type":"photo","sizes":{"medium":{"w":600,"h":600,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"large":{"w":1024,"h":1024,"resize":"fit"},"small":{"w":340,"h":340,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/2758945020\/b00a58f89462a4d902adf2da4b5a9c4f_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/2758945020\/b00a58f89462a4d902adf2da4b5a9c4f_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/901932493\/1351090650","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},{"id":47930310,"id_str":"47930310","name":"Lasse
         Ebert","screen_name":"lasseebert","location":"Aarhus, Denmark","description":"Freelance
         developer, Ruby","url":"http:\/\/t.co\/Jxx3g61zlI","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/Jxx3g61zlI","expanded_url":"http:\/\/lasseebert.dk","display_url":"lasseebert.dk","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":142,"friends_count":265,"listed_count":6,"created_at":"Wed
-        Jun 17 11:27:33 +0000 2009","favourites_count":662,"utc_offset":7200,"time_zone":"Copenhagen","geo_enabled":true,"verified":false,"statuses_count":1210,"lang":"en","status":{"created_at":"Wed
-        Apr 23 15:19:44 +0000 2014","id":458988601297354752,"id_str":"458988601297354752","text":"Yes!
-        After 15 mins of refreshing the page, I got my ticket to @baruco :)","source":"web","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"baruco","name":"Barcelona
-        Ruby Conf","id":396735384,"id_str":"396735384","indices":[62,69]}]},"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"260300","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/674753740\/9c6d1bd5152ca435c2b4fc2909ed902b.png","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/674753740\/9c6d1bd5152ca435c2b4fc2909ed902b.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/423395147582173185\/EL0-nyqs_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/423395147582173185\/EL0-nyqs_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/47930310\/1389782337","profile_link_color":"B01000","profile_sidebar_border_color":"000000","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},{"id":147295982,"id_str":"147295982","name":"Wiem
+        Jun 17 11:27:33 +0000 2009","favourites_count":662,"utc_offset":7200,"time_zone":"Copenhagen","geo_enabled":true,"verified":false,"statuses_count":1211,"lang":"en","status":{"created_at":"Wed
+        Apr 23 18:07:39 +0000 2014","id":459030858062888960,"id_str":"459030858062888960","text":"@Netflix_DK
+        Netflix, y u so slow?","source":"\u003ca href=\"http:\/\/twitter.com\/download\/android\"
+        rel=\"nofollow\"\u003eTwitter for Android\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":757261795,"in_reply_to_user_id_str":"757261795","in_reply_to_screen_name":"Netflix_DK","geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"Netflix_DK","name":"Netflix
+        Danmark","id":757261795,"id_str":"757261795","indices":[0,11]}]},"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"260300","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/674753740\/9c6d1bd5152ca435c2b4fc2909ed902b.png","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/674753740\/9c6d1bd5152ca435c2b4fc2909ed902b.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/423395147582173185\/EL0-nyqs_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/423395147582173185\/EL0-nyqs_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/47930310\/1389782337","profile_link_color":"B01000","profile_sidebar_border_color":"000000","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},{"id":147295982,"id_str":"147295982","name":"Wiem
         Cristo ","screen_name":"Wii_Cristo","location":"Tunis","description":"Ing\u00e9nieur
         en G\u00e9nie Biologique & Journaliste\nchristo.wiem@gmail.com","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":101,"friends_count":205,"listed_count":8,"created_at":"Sun
         May 23 19:06:10 +0000 2010","favourites_count":19,"utc_offset":10800,"time_zone":"Athens","geo_enabled":true,"verified":false,"statuses_count":1055,"lang":"fr","status":{"created_at":"Sat
@@ -303,5 +305,5 @@ http_interactions:
         rel=\"nofollow\"\u003eTweetDeck\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":458990426402598912,"in_reply_to_status_id_str":"458990426402598912","in_reply_to_user_id":981408690,"in_reply_to_user_id_str":"981408690","in_reply_to_screen_name":"BlueprintCoffee","geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"BlueprintCoffee","name":"Blueprint
         Coffee","id":981408690,"id_str":"981408690","indices":[0,16]}]},"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/2364010434\/0ytjnj47nqj0l9y87ia1_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/2364010434\/0ytjnj47nqj0l9y87ia1_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/486180352\/1360788822","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}],"next_cursor":1460432908031043845,"next_cursor_str":"1460432908031043845","previous_cursor":0,"previous_cursor_str":"0"}'
     http_version: 
-  recorded_at: Wed, 23 Apr 2014 17:49:22 GMT
+  recorded_at: Wed, 23 Apr 2014 18:23:11 GMT
 recorded_with: VCR 2.9.0

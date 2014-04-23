@@ -5,23 +5,26 @@ module Bilbot
       @coll = Bilbot.mongo['bbStat']
     end
 
-    def grab_stats
+    def grab_stats(target)
       @coll.insert({
         user: @user.id,
         followerCount: @user.followers_count,
         followingCount: @user.friends_count,
+        newFollower:target,
       })
     end
 
     def follow!
-      if target = @queue.dequeue
+      target = @queue.dequeue
+      if target
         @user.follow(target)
       end
+      target
     end
 
     def perform
-      grab_stats
-      follow!
+      target = follow!
+      grab_stats(target)
     end
   end
 end
