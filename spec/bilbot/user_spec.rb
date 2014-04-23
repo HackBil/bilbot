@@ -19,7 +19,7 @@ describe Bilbot::User do
 
     it "should return all followers since last fetch", :vcr do
       user.stub(:get_last_follower) { 361204760 }
-      expect(user.recent_followers.count).to eq(1)
+      expect(user.recent_followers.count).to eq(3)
     end
 
     it "should set last follower", :vcr do
