@@ -12,9 +12,9 @@ http_interactions:
       User-Agent:
       - Twitter Ruby Gem 5.8.0
       Authorization:
-      - OAuth oauth_consumer_key="wuFO2RHfdbxUjiWz2BFzhBmvj", oauth_nonce="989cc2033dd4b844ef6c519f152ca2e9",
-        oauth_signature="%2FRElxUFUBWslJYubmDdUFd78f80%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1397421956", oauth_token="391335300-jhLaHW5RGvSXktklsZwpYTDeD1ILFN8erqnZ0tHw",
+      - OAuth oauth_consumer_key="wuFO2RHfdbxUjiWz2BFzhBmvj", oauth_nonce="bbe801cfa9ec2fe54188eba295a4ba3d",
+        oauth_signature="a%2BBixYm%2B%2BfCiVNKVU7HV9aVC5Yo%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1398275360", oauth_token="391335300-jhLaHW5RGvSXktklsZwpYTDeD1ILFN8erqnZ0tHw",
         oauth_version="1.0"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
@@ -25,25 +25,23 @@ http_interactions:
     headers:
       Cache-Control:
       - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
-      Content-Encoding:
-      - gzip
       Content-Length:
-      - '1156'
+      - '1110'
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Sun, 13 Apr 2014 20:45:57 GMT
+      - Wed, 23 Apr 2014 17:49:21 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Sun, 13 Apr 2014 20:45:57 GMT
+      - Wed, 23 Apr 2014 17:49:21 GMT
       Pragma:
       - no-cache
       Server:
       - tfe
       Set-Cookie:
-      - guest_id=v1%3A139742195764736814; Domain=.twitter.com; Path=/; Expires=Tue,
-        12-Apr-2016 20:45:57 UTC
+      - guest_id=v1%3A139827536114420416; Domain=.twitter.com; Path=/; Expires=Fri,
+        22-Apr-2016 17:49:21 UTC
       - lang=en-gb
       Status:
       - 200 OK
@@ -60,42 +58,21 @@ http_interactions:
       X-Rate-Limit-Remaining:
       - '10'
       X-Rate-Limit-Reset:
-      - '1397422848'
+      - '1398276252'
       X-Transaction:
-      - 7ddb14014edfd813
+      - e32b3c80ecb40c74
       X-Xss-Protection:
       - 1; mode=block
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        H4sIAAAAAAAAALxW227jNhD9FUGvdW1dbcnAAk2aLBD0kod96yoQKGlkc0OR
-        KknFyQb+9w51i2Q7wRYoaj9ImjkznBmeGfLVpoW99WPX90PfcRb4mSot7a09
-        yuyFzUkFKLpi8EyV9Yfgmuw4oELlEoCnM/1EzURONBUcdb+/CL6wPkvCc6Mp
-        AE1p3SuXKGkkw7e91rXaJqtkpZe5SFbZffzbt+f4Tq8RAlxTTUHZ29cO3j7w
-        8+vrD5k/14QXUKSn2KYuWQMYGNqY2KiqGXnpYSdKyguamxC+OgvPfzg+HE+S
-        GWN6OKKqlkJDrgGLXBKmYGGXgjFxAKnSXDRc29uNj0JJgRejyF9j7ahCs0Hi
-        LmwsNTESgp/2F6Kt+1xbbmi53taNtt7G+snBn+U5rotxluRJNJJqGJ26ru9h
-        mXWeirJUYFb2zI5rWkH6XXCzg9eyUQow/IW9A5ECJxkzsWvZYOhPIGlJJ7ko
-        TXSjJkv46I8RvkNXwH/eZfaAMXWZJYAssa5qaTkby3W2brD1g7cEAlNoXCYI
-        fYw6jINwEzuuvzYJjAQ9V6KVhmfj/Zdr3JI9SGAMrKRxnHxDrAKeJKHa0mDh
-        /lIJS8twYEKXsGn+Cq//9EpTQYX1y01RjL2fE2svofyU2KPN4XBYkrpmhhlV
-        Ylu4Gqq56HY46eyA3n/pHCQr0klMmLLhOZnSgvJUQs1eUi3SrmSpqQBvGHtH
-        2ZXhHIAbIltbz1+H+I+c4CKgL+Mbyj5ZaNbbk4J25BiWzoWQBeWYjBpEWF1T
-        uEHPtaRZo4UcARL0AUAPtHE6uhq2TkTTbt8Ttceh0rYV7sxLlQnWfwzdhm8m
-        r8qYCd4NhY9SOBdamliV2SKIJPQMnNXwnZK9DQTXw4GwsCsoKGkDmJE4QI7G
-        TuxeJPGonLn0w0W4GTxO5lbLvzpTS32g1a7l36rFJKvrR35HiuLu9uqKgHu3
-        rLEbJw7SduzNxt+/8XMSwoW2mU/PmubGt9YgO+8z7IWJ3LmdWsxPlWTVNUCy
-        Ou9/TGUvNAZkfOuX2uxvKzHdTL93VNL7psrMywHnVYg82/dPCQaDJrkUtX3s
-        atZUPTSMNx00CibQkmqDVBVhrAf6fg90LgAZkTvogeugX9x4ngOP7bEy9MTb
-        kOj7ZiKphVI0w4ZVwBW2yxOMqn4Ol9IsPO3Ct7E+zB6VajyYFSOoviTFhjoz
-        wpOtpAzSjOSPO4lda84qZuztX52b29sb+yKGVmQHp/tN5gxsMbjDeg/V+HTx
-        NN/1LPzI7wWC/wfuNX6fpX4xl5NummFxMX8TReaYcwIv3gRBHMXJauOAl0dR
-        7MaEkMIriJsFpZ+vY7IGsnZJyoVEhi2/1TAN76OU/78oMsI5zt3TO9U7AXRo
-        E8FwvcRu9UPXi2JvHU7cMsofR0I5ThRcBxOtogVkRKYZnj24+LvEG3D4wUbU
-        DYI+rycoc2kYtX77m2jxWDkj2nAjKqAkDdNpj31HPNjMboDUdOdMgkfv3w0o
-        bXpZjzouNF66unu06qXHfwAAAP//AwCLiLjUtwsAAA==
+      encoding: UTF-8
+      string: '{"id":391335300,"id_str":"391335300","name":"Alexis Montagne","screen_name":"AlexisMontagne","location":"Lyon,
+        France","description":".","url":"https:\/\/t.co\/bO9Kjx9It6","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/bO9Kjx9It6","expanded_url":"https:\/\/upfluence.co","display_url":"upfluence.co","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":75,"friends_count":37,"listed_count":1,"created_at":"Sat
+        Oct 15 12:18:27 +0000 2011","favourites_count":1129,"utc_offset":7200,"time_zone":"Brussels","geo_enabled":true,"verified":false,"statuses_count":132,"lang":"en-gb","status":{"created_at":"Sun
+        Apr 20 21:07:04 +0000 2014","id":457988845414649856,"id_str":"457988845414649856","text":"#reperkusound
+        http:\/\/t.co\/9Q3mJmji5v","source":"\u003ca href=\"http:\/\/www.apple.com\"
+        rel=\"nofollow\"\u003eiOS\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[{"text":"reperkusound","indices":[0,13]}],"symbols":[],"urls":[],"user_mentions":[],"media":[{"id":457988845280432128,"id_str":"457988845280432128","indices":[14,36],"media_url":"http:\/\/pbs.twimg.com\/media\/BlsabaIIEAAm1Oa.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/BlsabaIIEAAm1Oa.jpg","url":"http:\/\/t.co\/9Q3mJmji5v","display_url":"pic.twitter.com\/9Q3mJmji5v","expanded_url":"http:\/\/twitter.com\/AlexisMontagne\/status\/457988845414649856\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":340,"h":453,"resize":"fit"},"large":{"w":720,"h":960,"resize":"fit"},"medium":{"w":600,"h":800,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"de"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000429744989\/70e2c88919aaad2da1b4f3c69a6ea61a_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000429744989\/70e2c88919aaad2da1b4f3c69a6ea61a_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/391335300\/1351289265","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
     http_version: 
-  recorded_at: Sun, 13 Apr 2014 20:45:56 GMT
+  recorded_at: Wed, 23 Apr 2014 17:49:21 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1/followers/list.json?cursor=-1&user_id=391335300
@@ -108,9 +85,9 @@ http_interactions:
       User-Agent:
       - Twitter Ruby Gem 5.8.0
       Authorization:
-      - OAuth oauth_consumer_key="wuFO2RHfdbxUjiWz2BFzhBmvj", oauth_nonce="616713c2adee27de5e3e890a932e8c6c",
-        oauth_signature="ap0b0viga9icCJqubhGMvw64hoY%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1397421956", oauth_token="391335300-jhLaHW5RGvSXktklsZwpYTDeD1ILFN8erqnZ0tHw",
+      - OAuth oauth_consumer_key="wuFO2RHfdbxUjiWz2BFzhBmvj", oauth_nonce="f9e021094022389833cc91ac84970001",
+        oauth_signature="ht26UMkB%2F3UxzNhL8qd62UAYh2o%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1398275361", oauth_token="391335300-jhLaHW5RGvSXktklsZwpYTDeD1ILFN8erqnZ0tHw",
         oauth_version="1.0"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
@@ -121,25 +98,23 @@ http_interactions:
     headers:
       Cache-Control:
       - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
-      Content-Encoding:
-      - gzip
       Content-Length:
-      - '10464'
+      - '9469'
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Sun, 13 Apr 2014 20:45:58 GMT
+      - Wed, 23 Apr 2014 17:49:22 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Sun, 13 Apr 2014 20:45:58 GMT
+      - Wed, 23 Apr 2014 17:49:22 GMT
       Pragma:
       - no-cache
       Server:
       - tfe
       Set-Cookie:
-      - guest_id=v1%3A139742195830499950; Domain=.twitter.com; Path=/; Expires=Tue,
-        12-Apr-2016 20:45:58 UTC
+      - guest_id=v1%3A139827536207864458; Domain=.twitter.com; Path=/; Expires=Fri,
+        22-Apr-2016 17:49:22 UTC
       - lang=en-gb
       Status:
       - 200 OK
@@ -156,247 +131,177 @@ http_interactions:
       X-Rate-Limit-Remaining:
       - '6'
       X-Rate-Limit-Reset:
-      - '1397422851'
+      - '1398276254'
       X-Transaction:
-      - e5f682ea6f40ff88
+      - e6a9cb2d84fd06ef
       X-Xss-Protection:
       - 1; mode=block
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        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
-        mzegKVyMFL85guTYsAxq5TWF06a8eSSBI/O1CEdu1bE5ksNYpOhj9eJBh3B0
-        IDgF7QEcxJ1UCzgMOvCe03QEIxlmJVAoOkvgqd0AhieqcsW0WdVK00mas6AG
-        QOpKZPevqdjf/emg81BcKYMOoKB3inGHHU84KWddiDV7N+eRpr1+bx+sg1SL
-        Vy9LcuB6XdFtTI4UN6gcNgsGbAGzVqsJ6yv5o6Se1RxRCrAw71m9JNHB2sF4
-        K/uk8JVVhIdAaDRVEWLW5IucqJnBTVOn2CDEBJ5t5QtgVzuLjgjdUDruTRO1
-        AGcmsALIk6roT1oKS6HNTg09+dgXcdQajZD9T5XRHeak2AJsggrafCJD9SJp
-        eQKVnWPvrI2+JC4CEgSip4AJPC/ViTsqEQJwwZv0pxINvhvgR6+UFbxSUmJQ
-        uw/wqqktJAadW5ya1CKEWBYt4K9q55wYvj8BHOxLKhhDzX+v6Jvigjwlo1z1
-        390ETlj4cRbZCWMcDVsqU5hl/jqMnxG6UtKME2E/KpxzrKosGml3a5ynNFN0
-        NjCmzgaTURntFMZwo6Zr+TEToioM0s2acW/t9ZzGbtNee0GvoTylIiCkiUpU
-        VblujPpAVyoT4cUuVr7F9WFG2HU3qkdBXZmgFhQyWeF2i2r70hph2jfx4F9h
-        t1ewLyzcbWbVNPOO3datdCNv320TZMR7Fzb7eXb7HpV4s+N6jnAPJwFM0wIq
-        ro1eBz13JoRzjeqc5W2Gk5ay2xHepAz+M9RF+xtlP555/VALJFtsqXw0rGMw
-        s8sc0jUYl9Ts6hpl1OSOzjsd3e5sMTTk4bNYU/aeCohpohhiaPDsvI/X3yMH
-        8wPrpmlU00wdF0r3TttyHjoq2Sjac6NIel5F8j4JD2LpuT23FAzyRl6jP4IF
-        Wf8m1XiV/3NashYNx6mXTiqAx33hD7qJlwI36OgKYNXjBjoZozRdR5R6QA9d
-        X9YQkBNyApWzbYzgSAhlFKX1Ma5ceR0h6AxAZk/hadBFz+VklqoSW1ZKanhb
-        4TTx6ZXu4HN8MFxHCi9efYv3znRWC41Gpc7NS+CWgbVqukH4qlZJN9iWdhoV
-        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
-        Ur4vs7vhStvkerzz5/8fAN/fJmGh6wAA
+      encoding: UTF-8
+      string: '{"users":[{"id":1460548674,"id_str":"1460548674","name":"Rac\u00f8n","screen_name":"raconon","location":"","description":"wazaaaa","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":0,"friends_count":22,"listed_count":0,"created_at":"Sun
+        May 26 20:25:53 +0000 2013","favourites_count":0,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":13,"lang":"fr","status":{"created_at":"Tue
+        Apr 22 18:24:01 +0000 2014","id":458672587309338625,"id_str":"458672587309338625","text":"#ogtv
+        Pourquoi, juste pourquoi n''y a-t-il aucune am\u00e9lioration pour les serveurs
+        EUW depuis  6 mois malgr\u00e9 les nombreux probl\u00e8mes ? =)","source":"web","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[{"text":"ogtv","indices":[0,5]}],"symbols":[],"urls":[],"user_mentions":[]},"favorited":false,"retweeted":false,"lang":"fr"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/414863445616381952\/vk3wQZsX_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/414863445616381952\/vk3wQZsX_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},{"id":980069438,"id_str":"980069438","name":"Matthieu
+        Forel","screen_name":"Forelol","location":"Lyon, France","description":"|
+        DJ \/ Producer | Drummer | Developer |.","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":48,"friends_count":58,"listed_count":5,"created_at":"Fri
+        Nov 30 08:53:00 +0000 2012","favourites_count":16,"utc_offset":7200,"time_zone":"Amsterdam","geo_enabled":false,"verified":false,"statuses_count":363,"lang":"fr","status":{"created_at":"Tue
+        Apr 22 13:38:41 +0000 2014","id":458600782225760256,"id_str":"458600782225760256","text":"Un
+        peu de #Love dans ce monde de merde ! http:\/\/t.co\/KbeTZO06ov","source":"\u003ca
+        href=\"http:\/\/instagram.com\" rel=\"nofollow\"\u003eInstagram\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[{"text":"Love","indices":[10,15]}],"symbols":[],"urls":[{"url":"http:\/\/t.co\/KbeTZO06ov","expanded_url":"http:\/\/instagram.com\/p\/nGBWuaStIs\/","display_url":"instagram.com\/p\/nGBWuaStIs\/","indices":[41,63]}],"user_mentions":[]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"fr"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/2914045530\/e014bb58985d93179d9ec638d1cb5695_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/2914045530\/e014bb58985d93179d9ec638d1cb5695_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/980069438\/1354272805","profile_link_color":"009999","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},{"id":89173622,"id_str":"89173622","name":"Sylvain
+        GERME","screen_name":"tarte_au_sucre","location":"Lyon","description":"Web
+        dev, Wordpress, SEO. Application and Network Performance Management","url":"http:\/\/t.co\/wrPideVbKI","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/wrPideVbKI","expanded_url":"http:\/\/www.sylvain-germe.fr","display_url":"sylvain-germe.fr","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":227,"friends_count":870,"listed_count":7,"created_at":"Wed
+        Nov 11 12:29:10 +0000 2009","favourites_count":0,"utc_offset":-7200,"time_zone":"Greenland","geo_enabled":false,"verified":false,"statuses_count":529,"lang":"en","status":{"created_at":"Mon
+        Apr 21 07:25:19 +0000 2014","id":458144432353976320,"id_str":"458144432353976320","text":"@fayatcharlotte
+        bon courage avec la liste !","source":"web","truncated":false,"in_reply_to_status_id":457173496242507776,"in_reply_to_status_id_str":"457173496242507776","in_reply_to_user_id":2336931902,"in_reply_to_user_id_str":"2336931902","in_reply_to_screen_name":"fayatcharlotte","geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"fayatcharlotte","name":"Charlotte
+        Fayat","id":2336931902,"id_str":"2336931902","indices":[0,15]}]},"favorited":false,"retweeted":false,"lang":"fr"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"BEF7C0","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/257289020\/IMG_2266_resize.jpg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/257289020\/IMG_2266_resize.jpg","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1756944008\/36660_406694874002_726239002_4473216_1607486_n_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1756944008\/36660_406694874002_726239002_4473216_1607486_n_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/89173622\/1397254045","profile_link_color":"0A8F0C","profile_sidebar_border_color":"636363","profile_sidebar_fill_color":"000000","profile_text_color":"2CDB1C","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},{"id":361204760,"id_str":"361204760","name":"Julien
+        EDOUARD","screen_name":"julien_edouard","location":"Lyon","description":"Web
+        & Mobile Developer, boeuf bourguignon et carbu Mikuni","url":"http:\/\/t.co\/x2vnmK6Syb","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/x2vnmK6Syb","expanded_url":"http:\/\/www.reportlinker.com","display_url":"reportlinker.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":60,"friends_count":71,"listed_count":2,"created_at":"Wed
+        Aug 24 12:25:44 +0000 2011","favourites_count":0,"utc_offset":7200,"time_zone":"Paris","geo_enabled":false,"verified":false,"statuses_count":620,"lang":"fr","status":{"created_at":"Wed
+        Apr 23 07:01:42 +0000 2014","id":458863267692437504,"id_str":"458863267692437504","text":"RT
+        @Clubic: M6 Web Lyon recherche un Lead Developer \/ Architecte Web http:\/\/t.co\/TI2zybB6aS","source":"\u003ca
+        href=\"https:\/\/launchpad.net\/polly\" rel=\"nofollow\"\u003ePolly\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Wed
+        Apr 23 06:54:05 +0000 2014","id":458861348211146753,"id_str":"458861348211146753","text":"M6
+        Web Lyon recherche un Lead Developer \/ Architecte Web http:\/\/t.co\/TI2zybB6aS","source":"\u003ca
+        href=\"http:\/\/www.clubic.com\" rel=\"nofollow\"\u003eClubic\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":13,"favorite_count":1,"entities":{"hashtags":[],"symbols":[],"urls":[{"url":"http:\/\/t.co\/TI2zybB6aS","expanded_url":"http:\/\/bit.ly\/1lDjEuQ","display_url":"bit.ly\/1lDjEuQ","indices":[57,79]}],"user_mentions":[]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"fr"},"retweet_count":13,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[{"url":"http:\/\/t.co\/TI2zybB6aS","expanded_url":"http:\/\/bit.ly\/1lDjEuQ","display_url":"bit.ly\/1lDjEuQ","indices":[69,91]}],"user_mentions":[{"screen_name":"Clubic","name":"Clubic","id":18239824,"id_str":"18239824","indices":[3,10]}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"fr"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000015694345\/29dd9b43263766dec630e01b2c9c1069_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000015694345\/29dd9b43263766dec630e01b2c9c1069_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/361204760\/1348730775","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},{"id":491244162,"id_str":"491244162","name":"Hugo
+        Duroux","screen_name":"Hugoduroux","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":16,"friends_count":80,"listed_count":0,"created_at":"Mon
+        Feb 13 12:23:28 +0000 2012","favourites_count":4,"utc_offset":7200,"time_zone":"Paris","geo_enabled":false,"verified":false,"statuses_count":39,"lang":"fr","status":{"created_at":"Fri
+        Apr 18 20:19:45 +0000 2014","id":457252160561233921,"id_str":"457252160561233921","text":"RT
+        @JeromeColombain: En 2014, @Fnac consid\u00e8re qu\u2019imprimer des billets
+        chez soi est une r\u00e9volution qui se facture #jadore http:\/\/t.co\/lzBAa4\u2026","source":"web","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Wed
+        Apr 16 19:34:11 +0000 2014","id":456515920538509312,"id_str":"456515920538509312","text":"En
+        2014, @Fnac consid\u00e8re qu\u2019imprimer des billets chez soi est une r\u00e9volution
+        qui se facture #jadore http:\/\/t.co\/lzBAa48c5z","source":"\u003ca href=\"https:\/\/about.twitter.com\/products\/tweetdeck\"
+        rel=\"nofollow\"\u003eTweetDeck\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":317,"favorite_count":60,"entities":{"hashtags":[{"text":"jadore","indices":[92,99]}],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"Fnac","name":"Fnac","id":8806412,"id_str":"8806412","indices":[9,14]}],"media":[{"id":456515920391725056,"id_str":"456515920391725056","indices":[100,122],"media_url":"http:\/\/pbs.twimg.com\/media\/BlXez5VCYAAxm5Y.png","media_url_https":"https:\/\/pbs.twimg.com\/media\/BlXez5VCYAAxm5Y.png","url":"http:\/\/t.co\/lzBAa48c5z","display_url":"pic.twitter.com\/lzBAa48c5z","expanded_url":"http:\/\/twitter.com\/JeromeColombain\/status\/456515920538509312\/photo\/1","type":"photo","sizes":{"large":{"w":304,"h":398,"resize":"fit"},"small":{"w":304,"h":398,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":304,"h":398,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"fr"},"retweet_count":317,"favorite_count":0,"entities":{"hashtags":[{"text":"jadore","indices":[113,120]}],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"JeromeColombain","name":"Jerome
+        Colombain","id":32370736,"id_str":"32370736","indices":[3,19]},{"screen_name":"Fnac","name":"Fnac","id":8806412,"id_str":"8806412","indices":[30,35]}],"media":[{"id":456515920391725056,"id_str":"456515920391725056","indices":[139,140],"media_url":"http:\/\/pbs.twimg.com\/media\/BlXez5VCYAAxm5Y.png","media_url_https":"https:\/\/pbs.twimg.com\/media\/BlXez5VCYAAxm5Y.png","url":"http:\/\/t.co\/lzBAa48c5z","display_url":"pic.twitter.com\/lzBAa48c5z","expanded_url":"http:\/\/twitter.com\/JeromeColombain\/status\/456515920538509312\/photo\/1","type":"photo","sizes":{"large":{"w":304,"h":398,"resize":"fit"},"small":{"w":304,"h":398,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":304,"h":398,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"fr"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/3726337305\/9339a1048bb3d2fd9c91af59e358e07f_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/3726337305\/9339a1048bb3d2fd9c91af59e358e07f_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},{"id":52372657,"id_str":"52372657","name":"Neamar","screen_name":"neamar","location":"France","description":"Distributeur
+        de liens et grognon professionnel.","url":"http:\/\/t.co\/5mo9Nu0dk9","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/5mo9Nu0dk9","expanded_url":"http:\/\/blog.neamar.fr","display_url":"blog.neamar.fr","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":321,"friends_count":101,"listed_count":15,"created_at":"Tue
+        Jun 30 11:44:27 +0000 2009","favourites_count":3,"utc_offset":7200,"time_zone":"Paris","geo_enabled":false,"verified":false,"statuses_count":9948,"lang":"en","status":{"created_at":"Wed
+        Apr 23 12:54:10 +0000 2014","id":458951964429389824,"id_str":"458951964429389824","text":"RT
+        @martiusweb: Only God Forgives (VFX Breakdown) - http:\/\/t.co\/u7vsVT6E1l
+        (Warn: Blood, blood, and more blood)","source":"\u003ca href=\"http:\/\/hotot.org\"
+        rel=\"nofollow\"\u003eHotot for Chrome\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Wed
+        Apr 23 12:13:20 +0000 2014","id":458941691517763584,"id_str":"458941691517763584","text":"Only
+        God Forgives (VFX Breakdown) - http:\/\/t.co\/u7vsVT6E1l (Warn: Blood, blood,
+        and more blood)","source":"web","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":1,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[{"url":"http:\/\/t.co\/u7vsVT6E1l","expanded_url":"http:\/\/vimeo.com\/75900695","display_url":"vimeo.com\/75900695","indices":[36,58]}],"user_mentions":[]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"retweet_count":1,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[{"url":"http:\/\/t.co\/u7vsVT6E1l","expanded_url":"http:\/\/vimeo.com\/75900695","display_url":"vimeo.com\/75900695","indices":[52,74]}],"user_mentions":[{"screen_name":"martiusweb","name":"Martin
+        Richard","id":14282361,"id_str":"14282361","indices":[3,14]}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"BADFCD","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/716680528\/aa07ee77c28e990eae702f622d81de9b.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/716680528\/aa07ee77c28e990eae702f622d81de9b.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/427821523584290816\/-Imy22n6_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/427821523584290816\/-Imy22n6_normal.jpeg","profile_link_color":"FF0000","profile_sidebar_border_color":"000000","profile_sidebar_fill_color":"99CC33","profile_text_color":"3E4415","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},{"id":46297785,"id_str":"46297785","name":"Thomas
+        Mesnier","screen_name":"ThomasMesnier","location":"Lyon, France","description":"Ancien
+        Esdessien, Actuel Startupeur - Passionn\u00e9 de Web, de Comm, de Pub... -
+        co-fondateur @Upfluence","url":"http:\/\/t.co\/BjjZsBqZLk","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/BjjZsBqZLk","expanded_url":"http:\/\/about.me\/thomasmesnier","display_url":"about.me\/thomasmesnier","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":214,"friends_count":208,"listed_count":5,"created_at":"Thu
+        Jun 11 02:57:12 +0000 2009","favourites_count":701,"utc_offset":-14400,"time_zone":"Eastern
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":429,"lang":"en","status":{"created_at":"Wed
+        Apr 16 19:26:00 +0000 2014","id":456513858769661952,"id_str":"456513858769661952","text":"Le
+        toulousain OverBlog rachet\u00e9 par l\u2019\u00e9diteur num\u00e9rique Webedia
+        http:\/\/t.co\/mf1en5ND08","source":"\u003ca href=\"http:\/\/twitter.com\/tweetbutton\"
+        rel=\"nofollow\"\u003eTweet Button\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[{"url":"http:\/\/t.co\/mf1en5ND08","expanded_url":"http:\/\/blog.france3.fr\/numerique-midi-pyrenees\/2014\/04\/16\/le-toulousain-overblog-rachete-par-lediteur-numerique-webedia.html","display_url":"blog.france3.fr\/numerique-midi\u2026","indices":[63,85]}],"user_mentions":[]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"fr"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/352056518\/water-texture-2.jpg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/352056518\/water-texture-2.jpg","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000765617289\/3b5c6015760e94c785fca057b00428ce_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000765617289\/3b5c6015760e94c785fca057b00428ce_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/46297785\/1398240419","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},{"id":416264712,"id_str":"416264712","name":"Pag\u00e8s
+        Production","screen_name":"PagesFilms","location":"Lyon - France","description":"Soci\u00e9t\u00e9
+        de production - #Audiovisuel et #Digital\r\nTouche aussi au #Cinema #Publicit\u00e9
+        #Communication #SocialMedia","url":"http:\/\/t.co\/rnUYthE24c","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/rnUYthE24c","expanded_url":"http:\/\/pages-films.fr\/","display_url":"pages-films.fr","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":808,"friends_count":1913,"listed_count":13,"created_at":"Sat
+        Nov 19 13:04:19 +0000 2011","favourites_count":58,"utc_offset":7200,"time_zone":"Paris","geo_enabled":false,"verified":false,"statuses_count":912,"lang":"fr","status":{"created_at":"Wed
+        Apr 23 14:00:05 +0000 2014","id":458968554440622081,"id_str":"458968554440622081","text":"L\u2019institut
+        Lumi\u00e8re regarde vers le Sud (festival):  http:\/\/t.co\/AJYyo0kwJa","source":"\u003ca
+        href=\"http:\/\/sproutsocial.com\" rel=\"nofollow\"\u003eSprout Social\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[{"url":"http:\/\/t.co\/AJYyo0kwJa","expanded_url":"http:\/\/bit.ly\/1rfj5uG","display_url":"bit.ly\/1rfj5uG","indices":[52,74]}],"user_mentions":[]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"fr"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"1A1B1F","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000168056334\/ektZtw-K.png","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000168056334\/ektZtw-K.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/458875346071203840\/u5TLDs0I_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/458875346071203840\/u5TLDs0I_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/416264712\/1398239303","profile_link_color":"084A5E","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"252429","profile_text_color":"666666","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},{"id":2375783636,"id_str":"2375783636","name":"Guitar
+        Mar","screen_name":"GuitarMar415","location":"","description":"Multi-instrumentalist
+        constantly on the go. Buskers At Large. SF, CA. Bay Area.","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":6,"friends_count":23,"listed_count":0,"created_at":"Thu
+        Mar 06 19:04:20 +0000 2014","favourites_count":0,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":3,"lang":"en","status":{"created_at":"Mon
+        Apr 07 15:41:50 +0000 2014","id":453195954309431296,"id_str":"453195954309431296","text":"Have
+        you heard \u2018The selfish song \"even if\"\u2019 by ThePhilanthropists on
+        #SoundCloud? https:\/\/t.co\/5wTGZ4zInE","source":"\u003ca href=\"http:\/\/twitter.com\/tweetbutton\"
+        rel=\"nofollow\"\u003eTweet Button\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[{"text":"SoundCloud","indices":[69,80]}],"symbols":[],"urls":[{"url":"https:\/\/t.co\/5wTGZ4zInE","expanded_url":"https:\/\/soundcloud.com\/thephilanthropists\/the-selfish-song-even-if-1?utm_source=soundcloud&utm_campaign=share&utm_medium=twitter","display_url":"soundcloud.com\/thephilanthrop\u2026","indices":[82,105]}],"user_mentions":[]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444205940611354624\/ZAai-gUp_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444205940611354624\/ZAai-gUp_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},{"id":901932493,"id_str":"901932493","name":"Official
+        POKUS","screen_name":"PokusEP4","location":"Paris","description":"Graffitiart
+        Girls Bodypainting Weed Illustrations Tattoos Hardlife","url":"http:\/\/t.co\/stzRSqs90d","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/stzRSqs90d","expanded_url":"http:\/\/custom2.fr","display_url":"custom2.fr","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":68,"friends_count":345,"listed_count":0,"created_at":"Wed
+        Oct 24 14:25:00 +0000 2012","favourites_count":16,"utc_offset":10800,"time_zone":"Athens","geo_enabled":false,"verified":false,"statuses_count":162,"lang":"fr","status":{"created_at":"Thu
+        Apr 03 20:01:10 +0000 2014","id":451811667668901888,"id_str":"451811667668901888","text":"@SeasonsArt
+        bien vu! Et merci pour le post\nPeace","source":"\u003ca href=\"https:\/\/twitter.com\/download\/android\"
+        rel=\"nofollow\"\u003eTwitter for  Android\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":451776806878990337,"in_reply_to_status_id_str":"451776806878990337","in_reply_to_user_id":432816558,"in_reply_to_user_id_str":"432816558","in_reply_to_screen_name":"SeasonsArt","geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"SeasonsArt","name":"\/SEAS","id":432816558,"id_str":"432816558","indices":[0,11]}]},"favorited":false,"retweeted":false,"lang":"fr"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/2758945020\/b00a58f89462a4d902adf2da4b5a9c4f_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/2758945020\/b00a58f89462a4d902adf2da4b5a9c4f_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/901932493\/1351090650","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},{"id":47930310,"id_str":"47930310","name":"Lasse
+        Ebert","screen_name":"lasseebert","location":"Aarhus, Denmark","description":"Freelance
+        developer, Ruby","url":"http:\/\/t.co\/Jxx3g61zlI","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/Jxx3g61zlI","expanded_url":"http:\/\/lasseebert.dk","display_url":"lasseebert.dk","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":142,"friends_count":265,"listed_count":6,"created_at":"Wed
+        Jun 17 11:27:33 +0000 2009","favourites_count":662,"utc_offset":7200,"time_zone":"Copenhagen","geo_enabled":true,"verified":false,"statuses_count":1210,"lang":"en","status":{"created_at":"Wed
+        Apr 23 15:19:44 +0000 2014","id":458988601297354752,"id_str":"458988601297354752","text":"Yes!
+        After 15 mins of refreshing the page, I got my ticket to @baruco :)","source":"web","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"baruco","name":"Barcelona
+        Ruby Conf","id":396735384,"id_str":"396735384","indices":[62,69]}]},"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"260300","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/674753740\/9c6d1bd5152ca435c2b4fc2909ed902b.png","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/674753740\/9c6d1bd5152ca435c2b4fc2909ed902b.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/423395147582173185\/EL0-nyqs_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/423395147582173185\/EL0-nyqs_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/47930310\/1389782337","profile_link_color":"B01000","profile_sidebar_border_color":"000000","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},{"id":147295982,"id_str":"147295982","name":"Wiem
+        Cristo ","screen_name":"Wii_Cristo","location":"Tunis","description":"Ing\u00e9nieur
+        en G\u00e9nie Biologique & Journaliste\nchristo.wiem@gmail.com","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":101,"friends_count":205,"listed_count":8,"created_at":"Sun
+        May 23 19:06:10 +0000 2010","favourites_count":19,"utc_offset":10800,"time_zone":"Athens","geo_enabled":true,"verified":false,"statuses_count":1055,"lang":"fr","status":{"created_at":"Sat
+        Apr 19 20:14:32 +0000 2014","id":457613239321247744,"id_str":"457613239321247744","text":"Meteor-like
+        Object Explodes Over Russia http:\/\/t.co\/BRBcfkJry7 via @sharethis","source":"\u003ca
+        href=\"http:\/\/twitter.com\/tweetbutton\" rel=\"nofollow\"\u003eTweet Button\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[{"url":"http:\/\/t.co\/BRBcfkJry7","expanded_url":"http:\/\/shar.es\/TJJqs","display_url":"shar.es\/TJJqs","indices":[40,62]}],"user_mentions":[{"screen_name":"ShareThis","name":"ShareThis","id":14116807,"id_str":"14116807","indices":[67,77]}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"9AE4E8","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000157086690\/0yCs0OxT.png","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000157086690\/0yCs0OxT.png","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000633138864\/51ccdb44972e2ca515ac2c8baf701b75_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000633138864\/51ccdb44972e2ca515ac2c8baf701b75_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/147295982\/1392569738","profile_link_color":"0084B4","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DDFFCC","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},{"id":1534666111,"id_str":"1534666111","name":"Kim
+        St-Jean","screen_name":"Kim3Pod","location":"kim@3pod.ca","description":"Talent
+        Agent @3pod","url":"http:\/\/t.co\/poL7XVsP7G","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/poL7XVsP7G","expanded_url":"http:\/\/3pod.ca","display_url":"3pod.ca","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":84,"friends_count":548,"listed_count":3,"created_at":"Thu
+        Jun 20 18:34:23 +0000 2013","favourites_count":0,"utc_offset":-14400,"time_zone":"Eastern
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":189,"lang":"fr","status":{"created_at":"Wed
+        Apr 23 15:02:49 +0000 2014","id":458984342694690816,"id_str":"458984342694690816","text":"D\u00e9veloppeur
+        Web | Python (Mid-Level) | Poste permanent | Vieux-Montr\u00e9al   http:\/\/t.co\/Nl0WihHwmB
+        #job #python #mtlpy","source":"\u003ca href=\"http:\/\/www.bullhornreach.com\/\"
+        rel=\"nofollow\"\u003eBullhorn Reach\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[{"text":"job","indices":[97,101]},{"text":"python","indices":[102,109]},{"text":"mtlpy","indices":[110,116]}],"symbols":[],"urls":[{"url":"http:\/\/t.co\/Nl0WihHwmB","expanded_url":"http:\/\/bull.hn\/l\/1UYNG\/45","display_url":"bull.hn\/l\/1UYNG\/45","indices":[74,96]}],"user_mentions":[]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"fr"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000021744626\/15894b7b0cc9d7d5624360d3bd8b7023_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000021744626\/15894b7b0cc9d7d5624360d3bd8b7023_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1534666111\/1371755169","profile_link_color":"DB3786","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},{"id":2206586384,"id_str":"2206586384","name":"Loghman
+        Jewelers","screen_name":"LoghmanJewelers","location":"At Del Mar Plaza for
+        25 years!","description":"Visit us to find custom jewelry created exclusively
+        for you & elegant, classic pieces including Forevermark by @DeBeers","url":"http:\/\/t.co\/X4N7UoMNcQ","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/X4N7UoMNcQ","expanded_url":"http:\/\/Loghman.com","display_url":"Loghman.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":134,"friends_count":391,"listed_count":3,"created_at":"Thu
+        Nov 21 06:29:08 +0000 2013","favourites_count":104,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":288,"lang":"en","status":{"created_at":"Sun
+        Mar 23 21:19:48 +0000 2014","id":447845190439415808,"id_str":"447845190439415808","text":"RT
+        @DelMarPlaza: RT @LoghmanJewelers: Do you know that this year we celebrate
+        25 years at @DelMarPlaza? How time flies when you are doing w\u2026","source":"web","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Thu
+        Mar 20 19:49:10 +0000 2014","id":446735219518087168,"id_str":"446735219518087168","text":"RT
+        @LoghmanJewelers: Do you know that this year we celebrate 25 years at @DelMarPlaza?
+        How time flies when you are doing what you love :)","source":"\u003ca href=\"http:\/\/www.hootsuite.com\"
+        rel=\"nofollow\"\u003eHootSuite\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":1,"favorite_count":1,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"LoghmanJewelers","name":"Loghman
+        Jewelers","id":2206586384,"id_str":"2206586384","indices":[3,19]},{"screen_name":"DelMarPlaza","name":"Del
+        Mar Plaza","id":102153313,"id_str":"102153313","indices":[73,85]}]},"favorited":false,"retweeted":false,"lang":"en"},"retweet_count":1,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"DelMarPlaza","name":"Del
+        Mar Plaza","id":102153313,"id_str":"102153313","indices":[3,15]},{"screen_name":"LoghmanJewelers","name":"Loghman
+        Jewelers","id":2206586384,"id_str":"2206586384","indices":[20,36]},{"screen_name":"DelMarPlaza","name":"Del
+        Mar Plaza","id":102153313,"id_str":"102153313","indices":[90,102]}]},"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"000305","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000179101002\/t5heFLqs.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000179101002\/t5heFLqs.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/442117993829371907\/9PqiNcZs_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/442117993829371907\/9PqiNcZs_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2206586384\/1392785511","profile_link_color":"0905FA","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},{"id":267546344,"id_str":"267546344","name":"Johnathon
+        Jadvani","screen_name":"JadvaniJ","location":"Fort Lauderdale","description":"I
+        love working with people, shaping ideas, and having great conversations that
+        lead to lasting relationships!","url":"http:\/\/t.co\/bJqS9fnz","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/bJqS9fnz","expanded_url":"http:\/\/www.rangertech.com","display_url":"rangertech.com","indices":[0,20]}]},"description":{"urls":[]}},"protected":false,"followers_count":63,"friends_count":106,"listed_count":0,"created_at":"Thu
+        Mar 17 03:46:55 +0000 2011","favourites_count":2,"utc_offset":-14400,"time_zone":"Eastern
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":445,"lang":"en","status":{"created_at":"Tue
+        Apr 22 19:02:41 +0000 2014","id":458682317247356928,"id_str":"458682317247356928","text":"Apply
+        Now - Senior Java Developer in Irvine, CA http:\/\/t.co\/Cue2tgQqZM #java","source":"\u003ca
+        href=\"http:\/\/www.bullhornreach.com\/\" rel=\"nofollow\"\u003eBullhorn Reach\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[{"text":"java","indices":[71,76]}],"symbols":[],"urls":[{"url":"http:\/\/t.co\/Cue2tgQqZM","expanded_url":"http:\/\/bull.hn\/l\/1XRPI\/58","display_url":"bull.hn\/l\/1XRPI\/58","indices":[48,70]}],"user_mentions":[]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"sk"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"022330","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme15\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme15\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/3177603569\/3811f0108def719560a039d7d1d3460e_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/3177603569\/3811f0108def719560a039d7d1d3460e_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"A8C7F7","profile_sidebar_fill_color":"C0DFEC","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},{"id":2279380003,"id_str":"2279380003","name":"Prelang","screen_name":"PrelangCode","location":"","description":"Automatic
+        Rails Development Tools.","url":"http:\/\/t.co\/ylHg0H2IqF","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/ylHg0H2IqF","expanded_url":"http:\/\/prelang.com","display_url":"prelang.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":155,"friends_count":560,"listed_count":0,"created_at":"Mon
+        Jan 06 17:29:24 +0000 2014","favourites_count":66,"utc_offset":-18000,"time_zone":"Central
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":51,"lang":"en","status":{"created_at":"Wed
+        Apr 23 16:28:35 +0000 2014","id":459005925882216449,"id_str":"459005925882216449","text":"@Wallywaw
+        Just sent yours.  It means you can sign up with GitHub now.","source":"web","truncated":false,"in_reply_to_status_id":458746262523629568,"in_reply_to_status_id_str":"458746262523629568","in_reply_to_user_id":32069061,"in_reply_to_user_id_str":"32069061","in_reply_to_screen_name":"Wallywaw","geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"Wallywaw","name":"Wali
+        Ali","id":32069061,"id_str":"32069061","indices":[0,9]}]},"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"222222","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/437655930163834880\/ya_CC6Mj.png","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/437655930163834880\/ya_CC6Mj.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/439508518031200256\/dwABRcP8_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/439508518031200256\/dwABRcP8_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2279380003\/1393180132","profile_link_color":"0084B4","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},{"id":50797294,"id_str":"50797294","name":"Louis
+        Larpin","screen_name":"semtazone","location":"Lyon, France","description":"Full
+        stack web and mobile developper \u2022 Supinfo student \u2022 \u2661 Ruby,
+        Javascript, ObjC \u2022 Traveler & Rollerblader","url":"http:\/\/t.co\/gxTs44LUcE","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/gxTs44LUcE","expanded_url":"http:\/\/lilfaf.github.io","display_url":"lilfaf.github.io","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":13,"friends_count":61,"listed_count":3,"created_at":"Thu
+        Jun 25 22:43:23 +0000 2009","favourites_count":19,"utc_offset":10800,"time_zone":"Athens","geo_enabled":false,"verified":false,"statuses_count":25,"lang":"en","status":{"created_at":"Sun
+        Feb 23 14:03:51 +0000 2014","id":437588620711837697,"id_str":"437588620711837697","text":"RT
+        @fredix: A toutes les startups web, #WhatsApp c''est un backend en #erlang
+        et #FreeBSD qui tient 2 Millions de connexions http:\/\/t.co\/Rk0\u2026","source":"web","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Thu
+        Feb 20 20:16:41 +0000 2014","id":436595282911199233,"id_str":"436595282911199233","text":"A
+        toutes les startups web, #WhatsApp c''est un backend en #erlang et #FreeBSD
+        qui tient 2 Millions de connexions http:\/\/t.co\/Rk0ECe2a33 :) :)","source":"\u003ca
+        href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003eTwitter
+        for Mac\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":25,"favorite_count":4,"entities":{"hashtags":[{"text":"WhatsApp","indices":[27,36]},{"text":"erlang","indices":[57,64]},{"text":"FreeBSD","indices":[68,76]}],"symbols":[],"urls":[{"url":"http:\/\/t.co\/Rk0ECe2a33","expanded_url":"http:\/\/blog.whatsapp.com\/index.php\/2012\/01\/1-million-is-so-2011\/","display_url":"blog.whatsapp.com\/index.php\/2012\u2026","indices":[112,134]}],"user_mentions":[]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"fr"},"retweet_count":25,"favorite_count":0,"entities":{"hashtags":[{"text":"WhatsApp","indices":[39,48]},{"text":"erlang","indices":[69,76]},{"text":"FreeBSD","indices":[80,88]}],"symbols":[],"urls":[{"url":"http:\/\/t.co\/Rk0ECe2a33","expanded_url":"http:\/\/blog.whatsapp.com\/index.php\/2012\/01\/1-million-is-so-2011\/","display_url":"blog.whatsapp.com\/index.php\/2012\u2026","indices":[139,140]}],"user_mentions":[{"screen_name":"fredix","name":"Fr\u00e9d\u00e9ric
+        Logier","id":5426532,"id_str":"5426532","indices":[3,10]}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"fr"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000290250940\/3b738f3d1f735e28f6423285d65bb6cb_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000290250940\/3b738f3d1f735e28f6423285d65bb6cb_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/50797294\/1381747385","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},{"id":442448605,"id_str":"442448605","name":"Jason
+        Bissell","screen_name":"MrEteligis","location":"New York","description":"Passionate
+        about my work and thankful for my family. My Tweets are mine, nor do they
+        express the views or opinions of @eteligis - #socialmedia","url":"http:\/\/t.co\/aZK6d0T0Em","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/aZK6d0T0Em","expanded_url":"http:\/\/www.eteligis.com","display_url":"eteligis.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":96124,"friends_count":754,"listed_count":7,"created_at":"Wed
+        Dec 21 04:04:08 +0000 2011","favourites_count":105,"utc_offset":-14400,"time_zone":"Eastern
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":1691,"lang":"en","status":{"created_at":"Wed
+        Apr 23 17:40:59 +0000 2014","id":459024148074098689,"id_str":"459024148074098689","text":"#news
+        Quasar Executes Terms of Acquisition - Quasar Aerospace Industries, Inc. http:\/\/t.co\/J9RSIkgH5Q","source":"\u003ca
+        href=\"http:\/\/www.hootsuite.com\" rel=\"nofollow\"\u003eHootSuite\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[{"text":"news","indices":[0,5]}],"symbols":[],"urls":[{"url":"http:\/\/t.co\/J9RSIkgH5Q","expanded_url":"http:\/\/ow.ly\/2FXvo9","display_url":"ow.ly\/2FXvo9","indices":[79,101]}],"user_mentions":[]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/434080411908452352\/xZCzDceb.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/434080411908452352\/xZCzDceb.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/434077526432833536\/MhHTvJ9f_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/434077526432833536\/MhHTvJ9f_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/442448605\/1392327954","profile_link_color":"0084B4","profile_sidebar_border_color":"000000","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},{"id":321208736,"id_str":"321208736","name":"Pravin
+        Kumar(Mishra)","screen_name":"pravinmishra88","location":"New Delhi","description":"Senior
+        Software Engineer @ Shephertz Technologies, Always struggling to learn new
+        development stuff. Cloud Computing | IaaS | PaaS | BaaS | Rails | Node.js
+        | Go","url":"http:\/\/t.co\/OazYZxZ1lW","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/OazYZxZ1lW","expanded_url":"http:\/\/railskey.wordpress.com\/","display_url":"railskey.wordpress.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":343,"friends_count":809,"listed_count":7,"created_at":"Tue
+        Jun 21 05:55:32 +0000 2011","favourites_count":961,"utc_offset":-36000,"time_zone":"Hawaii","geo_enabled":false,"verified":false,"statuses_count":2590,"lang":"en","status":{"created_at":"Wed
+        Apr 23 15:44:51 +0000 2014","id":458994919789826049,"id_str":"458994919789826049","text":"RT
+        @SuccessWithJake: If someone told you being an entrepreneur was worth it,
+        they were truthful. (2\/2)","source":"\u003ca href=\"http:\/\/bufferapp.com\"
+        rel=\"nofollow\"\u003eBuffer\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"SuccessWithJake","name":"Jacob
+        Becker","id":590024387,"id_str":"590024387","indices":[3,19]}]},"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000167016064\/5Soo9Nxn.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000167016064\/5Soo9Nxn.jpeg","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/3162324094\/ccc374e34a93aa9a7def5c0355ddab6e_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/3162324094\/ccc374e34a93aa9a7def5c0355ddab6e_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/321208736\/1391995951","profile_link_color":"0084B4","profile_sidebar_border_color":"000000","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},{"id":486180352,"id_str":"486180352","name":"efeqdev","screen_name":"efeqdev","location":"Saint
+        Louis, MO","description":"We design and build applications for the web. By
+        @keggers5000, @bredon, @reidelliott & @Ze_Unit","url":"http:\/\/t.co\/sGd0KVKVE7","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/sGd0KVKVE7","expanded_url":"http:\/\/efeqdev.com","display_url":"efeqdev.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":246,"friends_count":621,"listed_count":3,"created_at":"Wed
+        Feb 08 00:55:00 +0000 2012","favourites_count":25,"utc_offset":-14400,"time_zone":"Eastern
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":396,"lang":"en","status":{"created_at":"Wed
+        Apr 23 15:41:44 +0000 2014","id":458994137111359488,"id_str":"458994137111359488","text":"@BlueprintCoffee
+        Good luck out there!","source":"\u003ca href=\"https:\/\/about.twitter.com\/products\/tweetdeck\"
+        rel=\"nofollow\"\u003eTweetDeck\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":458990426402598912,"in_reply_to_status_id_str":"458990426402598912","in_reply_to_user_id":981408690,"in_reply_to_user_id_str":"981408690","in_reply_to_screen_name":"BlueprintCoffee","geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"BlueprintCoffee","name":"Blueprint
+        Coffee","id":981408690,"id_str":"981408690","indices":[0,16]}]},"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/2364010434\/0ytjnj47nqj0l9y87ia1_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/2364010434\/0ytjnj47nqj0l9y87ia1_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/486180352\/1360788822","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}],"next_cursor":1460432908031043845,"next_cursor_str":"1460432908031043845","previous_cursor":0,"previous_cursor_str":"0"}'
     http_version: 
-  recorded_at: Sun, 13 Apr 2014 20:45:57 GMT
+  recorded_at: Wed, 23 Apr 2014 17:49:22 GMT
 recorded_with: VCR 2.9.0
